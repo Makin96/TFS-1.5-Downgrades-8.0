@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sepru" script="ddemon2.lua" walkinterval="2500" floorchange="0">
+	<health now="100" max="100" />
+	<look type="32" head="132" body="79" legs="97" feet="132" addons="0" />
+	<parameters>
+	<parameter key="message_greet" value="|PLAYERNAME|. Take this dragon ball and leave this area ok?" />
+	</parameters>
+</npc>

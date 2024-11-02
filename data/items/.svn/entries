@@ -1,0 +1,54 @@
+8
+
+dir
+2293
+https://opentibia.svn.sourceforge.net/svnroot/opentibia/otserv/trunk/data/items
+https://opentibia.svn.sourceforge.net/svnroot/opentibia
+
+
+
+2007-06-28T23:53:25.857925Z
+2293
+Winghawk
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c77455bc-2124-0410-8220-ac9e7aafbb94
+
+items.xml
+file
+
+
+
+
+2007-06-29T13:32:09.593750Z
+b56f0c416bcd4fadf2f1f03682e36351
+2007-06-28T23:53:25.857925Z
+2293
+Winghawk
+has-props
+
+items.otb
+file
+
+
+
+
+2007-06-29T13:32:09.703125Z
+c367646508a7e34043bec5e3b9f26049
+2007-06-26T21:15:54.143884Z
+2285
+mips_act
+has-props
+

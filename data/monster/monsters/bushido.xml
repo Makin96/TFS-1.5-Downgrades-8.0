@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Bushido Follower" nameDescription="a bushido follower" race="fire" experience="1" speed="500" manacost="0">
+    <health now="100000" max="100000"/>
+    <look type="65" head="0" body="0" legs="0" feet="0" corpse="4253"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+<flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="sword bash" interval="10000" min="-10000" max="-15000"/>
+      <attack name="melee" interval="1" min="-100" max="-200"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+      <item id="2152" countmax="2" chance1="666" chancemax="0"/>
+      <item id="2148" countmax="100" chance1="1100" chancemax="0"/>
+   <item id="2673" countmax="2" chance1="1000" chancemax="0"/>
+   <item id="2407" countmax="1" chance1="333" chancemax="0"/>
+   <item id="4850" countmax="1" chance1="1100" chancemax="0"/>
+<item id="1987" chance="50000">
+<inside>
+   <item id="2050" countmax="1" chance1="1000" chancemax="0"/>
+   <item id="2553" countmax="1" chance1="666" chancemax="0"/>
+   <item id="2432" countmax="1" chance1="666" chancemax="0"/>
+   <item id="2554" countmax="1" chance1="666" chancemax="0"/>
+   <item id="2667" countmax="5" chance1="10000" chancemax="0"/>
+   <item id="2686" countmax="3" chance1="533" chancemax="0"/>
+   <item id="2406" countmax="1" chance1="533" chancemax="0"/>
+   <item id="2459" countmax="1" chance1="533" chancemax="0"/>
+</inside>
+</item>
+    </loot>
+  </monster>

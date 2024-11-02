@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Goku" nameDescription="a saiyan" race="blood" experience="5000" speed="460" manacost="255">
+    <health now="60000" max="60000"/>
+    <look type="69" head="20" body="30" legs="40" feet="50" corpse="2983"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+<flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+ <attack name="melee" interval="2000" min="-600" max="-800"/>
+      <attack name="gda" interval="2000" min="-330" max="-4390"/>
+      <attack name="big bolt" interval="3000" chance="100" min="-400" max="-500"/>
+      <attack name="ryuken" interval="3000" chance="100" min="-400" max="-600"/>
+      <attack name="kienzan" interval="3000" chance="100" min="-800" max="-1200"/>
+    </attacks>
+    <defenses armor="100" defense="100"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="..."/>
+      <voice sentence="Take This!"/>
+     
+    </voices>
+ <loot>
+<item id="2148" countmax="50" chance1="100000" chancemax="0"/>
+<item id="2465" chance="333"/>
+<item id="2190" chance="333"/>
+<item id="2189" chance="333"/>
+<item id="2208" chance="333"/>
+<item id="2534" chance="333"/>
+    </loot>
+  </monster>

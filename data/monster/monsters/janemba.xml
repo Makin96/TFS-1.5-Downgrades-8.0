@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Janemba" nameDescription="a demon" race="blood" experience="16000" speed="500" manacost="255">
+    <health now="600000" max="600000"/>
+    <look type="110" head="20" body="30" legs="40" feet="50" corpse="3056"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+    <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-800" max="-821"/>
+      <attack name="sword bash" interval="2000" min="-700" max="-1200"/>
+      <attack name="furie" interval="2000" min="-700" max="-1800"/>
+      <attack name="sword furie" interval="2000" min="-800" max="-1300"/>
+      <attack name="sword furie" interval="2000" min="-800" max="-1500"/>
+
+      <attack name="bakuhatsuha" interval="2000" min="-700" max="-1900"/>
+
+      <attack name="ki blast" interval="2000" min="-1000" max="-3500"/>
+
+    </attacks>
+    <defenses armor="125" defense="125"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="Jahahahaha!"/>
+      <voice sentence="Janemba Janemba Janemba Janemba!"/>
+    </voices>
+
+
+<loot>
+ <item id="2148" countmax="50" chance1="100000" chancemax="0"/>
+    <item id="2390" chance="1000"/>
+  
+  </loot>
+  </monster>

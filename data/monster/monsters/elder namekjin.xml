@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Elder Namekjin" nameDescription="a elder namekjin" race="blood" experience="28000" speed="300" manacost="255">
+    <health now="500000" max="500000"/>
+    <look type="175" head="50" body="50" legs="50" feet="50" corpse="3046"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+<flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+	<attack name="melee" interval="2000" min="-2000" max="-3000"/>
+	<attack name="hell granade" interval="2000" min="-2000" max="-4000"/>
+    </attacks>
+    <defenses armor="150" defense="150"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="Silence!"/>
+    </voices>
+<loot>
+ <item id="6558" countmax="1" chance1="50000" chancemax="0"/>
+ <item id="2543" countmax="100" chance1="50000" chancemax="0"/>
+ <item id="6544" countmax="1" chance1="40000" chancemax="0"/>
+ <item id="2002" countmax="1" chance1="40000" chancemax="0"/>
+ <item id="2455" countmax="1" chance1="50000" chancemax="0"/>
+ <item id="2795" countmax="5" chance1="10000" chancemax="0"/>
+  </loot>
+  </monster>

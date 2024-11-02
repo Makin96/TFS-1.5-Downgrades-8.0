@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Dederin" script="boat.lua" walkinterval="2500" floorchange="0">
+	<health now="100" max="100" />
+	<look type="317" head="132" body="79" legs="97" feet="132" addons="0" />
+	<parameters>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|! I can take you to Swamp City, Small City, Big City, Ice City, Frozen City, West Island, East Island, Broken City, Tsu Island, Hope City, Assassin Tower (100 zeni everywhere)" />
+	</parameters>
+</npc>

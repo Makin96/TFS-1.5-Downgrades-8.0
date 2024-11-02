@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Power Trader" script="power.lua" walkinterval="2500" floorchange="0">
+	<health now="100" max="100" />
+	<look type="95" head="132" body="79" legs="97" feet="132" addons="0" />
+	<parameters>
+	<parameter key="module_shop" value="1" />
+	<parameter key="message_greet" value="Hello, |PLAYERNAME|! I buy all items what you can see here." />
+	<parameter key="shop_sellable" value="blaster,2453,300;saiyan power,2433,50000;makankosappo power,2455,1000;namek power,2456,500;" />
+	</parameters>
+</npc>

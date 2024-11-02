@@ -1,0 +1,22 @@
+local combat = createCombatObject()
+setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_RED)
+
+
+
+local outfit1 = createConditionObject(CONDITION_OUTFIT)
+setConditionParam(outfit1, CONDITION_PARAM_TICKS, 90000)
+addOutfitCondition(outfit1, 0, 67, 0, 0, 0, 0)
+
+
+
+function onCastSpell(cid, var)
+	return doCombat(cid, combat, var)
+end
+
+
+
+
+
+
+
+

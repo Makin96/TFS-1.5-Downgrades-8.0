@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Frodo" script="frodo.lua" walkinterval="2500" floorchange="0">
+	<health now="100" max="100" />
+	<look type="275" head="132" body="79" legs="97" feet="132" addons="0" />
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell jet pack (50 zeni), shovels (20 zeni), backpacks (10 zeni), scythe (50 zeni), pick (50 zeni), bag (5 zeni), torches (2 zeni), scythe (50 zeni), bag (5 zeni), worms (1 zeni), fishing (100 zeni), blue capsule (100 zeni) and red capsule (100 zeni)." />
+		<parameter key="shop_buyable" value="shovel,2554,20;backpack,1998,20;jet pack,2120,20;pick,2553,20;torch,2050,2;scythe,2550,50;bag,1987,5;worms,3976,1;fishing,2580,100;blue capsule,1999,100;red capsule,2001,100;" />
+	</parameters>
+</npc>

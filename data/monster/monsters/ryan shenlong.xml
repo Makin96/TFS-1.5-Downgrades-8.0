@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Ryan Shenlong" nameDescription="a shenlong" race="blood" experience="50000" speed="460" manacost="255">
+    <health now="1000000" max="1000000"/>
+    <look type="20" head="20" body="30" legs="40" feet="50" corpse="2851"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+   <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+ <attack name="melee" interval="2000" min="-1500" max="-2500"/>
+      <attack name="arrow" interval="2000" min="-330" max="-390"/>
+      <attack name="bolt" interval="3000" chance="100" min="-500" max="-1000"/>
+      <attack name="big bolt" interval="3000" chance="100" min="-1000" max="-3400"/>
+      <attack name="korede saigo da" interval="3000" chance="100" min="-400" max="-800"/>
+      <attack name="big bolt" interval="3000" chance="100" min="-2000" max="-4000"/>
+    </attacks>
+    <defenses armor="100" defense="100"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="gagaga"/>
+      <voice sentence="hue!"/>
+     
+    </voices>
+
+ <loot>
+
+
+    </loot>
+  </monster>

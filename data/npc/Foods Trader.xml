@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Foods Trader" script="food.lua" walkinterval="2500" floorchange="0">
+	<health now="100" max="100" />
+	<look type="310" head="132" body="79" legs="97" feet="132" addons="0" />
+	<parameters>
+
+	
+	<parameter key="module_shop" value="1" />
+	<parameter key="message_greet" value="Hello, |PLAYERNAME|! I sell all foods and Potion for 5 dolars, ki potion 10 dolars." />
+	<parameter key="shop_buyable" value="dragon tail,2672,500;meat,2666,300;ham,2671,400;hamburger,2691,200;rise,2696,100;potion,2686,500;ki,2689,1000;red bands,2214,1000;two tones bands,2166,1000;" />
+		
+	</parameters>
+</npc>

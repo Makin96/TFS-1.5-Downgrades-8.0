@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<monster name="Punching Bag" nameDescription="a Punching Bag" level="100" experience="12000" manacost="0" speed="310" race="2">
+  <health now="900000000" max="900000000"/>
+  <strategy attack="0" defense="0"/>
+<look type="321" head="20" body="30" legs="40" feet="50" addons="0" corpse="2807"/>
+
+<flags>
+  <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+  </flags>
+
+  <defenses defense="0" armor="0"/>
+  <immunities/>
+ 
+</monster>

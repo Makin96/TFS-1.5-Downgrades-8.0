@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Vegetto" nameDescription="a super saiyan" race="blood" experience="35000" speed="430" manacost="255">
+    <health now="4000000" max="4000000"/>
+    <look type="8" head="20" body="30" legs="40" feet="50" corpse="2938"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+   <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-1330" max="-1390"/>
+      <attack name="bolt" interval="3000" chance="100" min="-50" max="-11355"/>
+      <attack name="kienzan" interval="3000" chance="100" min="-1000" max="-1400"/>
+      <attack name="gda" interval="3000" chance="100" min="-13000" max="-15400"/>
+      <attack name="big bang attack" interval="3000" chance="100" min="-400" max="-800"/>
+      <attack name="renzoku energy dan" interval="3000" chance="100" min="-1000" max="-5000"/>
+   
+    </attacks>
+    <defenses armor="105" defense="105"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="You...."/>
+      <voice sentence="I am not Goku and Vegeta!"/>
+    </voices>
+
+
+ <loot>
+<item id="2148" countmax="50" chance1="100000" chancemax="0"/>
+<item id="2492" chance="111"/>
+<item id="7443" chance="111"/>
+<item id="7439" chance="111"/>
+<item id="7440" chance="111"/>
+<item id="2441" chance="111"/>
+<item id="2433" chance="111"/>
+    </loot>
+
+  </monster>

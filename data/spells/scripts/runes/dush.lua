@@ -1,0 +1,22 @@
+local combat = createCombatObject()
+setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_MANADRAIN)
+setCombatParam(combat, COMBAT_PARAM_BLOCKARMOR, 1)
+setCombatParam(combat, COMBAT_PARAM_BLOCKSHIELD, 1)
+
+local condition = createConditionObject(CONDITION_POISON)
+setConditionParam(condition, CONDITION_PARAM_DELAYED, 1)
+addDamageCondition(condition, 1, 3000, -5000)
+addDamageCondition(condition, 2, 3000, -3000)
+addDamageCondition(condition, 3, 3000, -1000)
+addDamageCondition(condition, 4, 3000, -900)
+addDamageCondition(condition, 5, 3000, -700)
+addDamageCondition(condition, 4, 3000, -600)
+addDamageCondition(condition, 3, 3000, -400)
+addDamageCondition(condition, 5, 3000, -200)
+addDamageCondition(condition, 4, 3000, -100)
+addDamageCondition(condition, 10, 3000, -1)
+setCombatCondition(combat, condition)
+
+function onCastSpell(cid, var)
+	return doCombat(cid, combat, var)
+end

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Freeza" script="freezas.lua" walkinterval="2500" floorchange="0">
+	<health now="100" max="100" />
+	<look type="227" head="132" body="79" legs="97" feet="132" addons="0" />
+	<parameters>
+	<parameter key="message_greet" value="Now We Fight?" />
+	</parameters>
+</npc>

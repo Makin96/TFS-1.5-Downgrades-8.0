@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Baker" script="baker.lua" walkinterval="2500" floorchange="0">
+	<health now="100" max="100" />
+	<look type="150" head="132" body="79" legs="97" feet="132" addons="0" />
+	<parameters>
+	<parameter key="message_greet" value="Hello, |PLAYERNAME|! Do you have 100 Dino claw for me?" />
+	</parameters>
+</npc>

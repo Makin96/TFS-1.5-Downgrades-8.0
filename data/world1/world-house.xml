@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<houses>
+	<house name="Hotel Room 1" houseid="1" entryx="93" entryy="164" entryz="7" rent="30000" townid="0" size="12" />
+	<house name="Hotel Room 2" houseid="2" entryx="93" entryy="160" entryz="7" rent="30000" townid="0" size="12" />
+	<house name="Hotel Room 3" houseid="3" entryx="93" entryy="156" entryz="7" rent="30000" townid="0" size="12" />
+	<house name="Hotel Room 4" houseid="4" entryx="93" entryy="152" entryz="7" rent="30000" townid="0" size="12" />
+	<house name="Hotel Room 5" houseid="5" entryx="96" entryy="152" entryz="7" rent="30000" townid="0" size="12" />
+	<house name="Hotel Room 6" houseid="6" entryx="93" entryy="152" entryz="6" rent="30000" townid="0" size="12" />
+	<house name="Hotel Room 7" houseid="7" entryx="93" entryy="156" entryz="6" rent="30000" townid="0" size="12" />
+	<house name="Hotel Room 8" houseid="8" entryx="93" entryy="160" entryz="6" rent="30000" townid="0" size="12" />
+	<house name="Hotel Room 9" houseid="9" entryx="93" entryy="164" entryz="6" rent="30000" townid="0" size="12" />
+	<house name="Hotel Room 10" houseid="10" entryx="101" entryy="158" entryz="6" rent="35000" townid="0" size="16" />
+	<house name="Hotel Room 11" houseid="11" entryx="101" entryy="163" entryz="6" rent="35000" townid="0" size="20" />
+	<house name="Hotel Room 12" houseid="12" entryx="93" entryy="152" entryz="5" rent="35000" townid="0" size="12" />
+	<house name="Hotel Room 13" houseid="13" entryx="93" entryy="156" entryz="5" rent="35000" townid="0" size="12" />
+	<house name="Hotel Room 14" houseid="14" entryx="93" entryy="160" entryz="5" rent="35000" townid="0" size="12" />
+	<house name="Hotel Room 15" houseid="15" entryx="93" entryy="164" entryz="5" rent="35000" townid="0" size="12" />
+	<house name="Hotel Room 16" houseid="16" entryx="101" entryy="158" entryz="5" rent="35000" townid="0" size="16" />
+	<house name="Hotel Room 17" houseid="17" entryx="101" entryy="163" entryz="5" rent="35000" townid="0" size="20" />
+	<house name="Hotel Room 18" houseid="18" entryx="93" entryy="152" entryz="4" rent="35000" townid="0" size="12" />
+	<house name="Hotel Room 19" houseid="19" entryx="93" entryy="156" entryz="4" rent="35000" townid="0" size="12" />
+	<house name="Hotel Room 20" houseid="20" entryx="93" entryy="160" entryz="4" rent="35000" townid="0" size="12" />
+	<house name="Hotel Room 21" houseid="21" entryx="93" entryy="164" entryz="4" rent="35000" townid="0" size="12" />
+	<house name="Hotel Room 22" houseid="22" entryx="101" entryy="158" entryz="4" rent="35000" townid="0" size="16" />
+	<house name="Hotel Room 23" houseid="23" entryx="101" entryy="163" entryz="4" rent="35000" townid="0" size="20" />
+	<house name="" houseid="25" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="424" />
+	<house name="" houseid="28" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="7" />
+	<house name="" houseid="29" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10" />
+	<house name="" houseid="30" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="10" />
+	<house name="" houseid="31" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="304" />
+</houses>

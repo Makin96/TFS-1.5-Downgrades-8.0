@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Namekjin" script="namekjin.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="57" head="132" body="79" legs="97" feet="132" addons="0" />
+	<parameters>
+	<parameter key="message_greet" value="Hey |PLAYERNAME|! You are Very Strong ! Do you want finish freeza saga?" />
+	</parameters>
+</npc>

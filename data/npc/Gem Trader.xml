@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gem Trader" script="gem.lua" walkinterval="2500" floorchange="0">
+	<health now="100" max="100" />
+	<look type="305" head="132" body="79" legs="97" feet="132" addons="0" />
+	<parameters>
+	
+	<parameter key="module_shop" value="1" />
+	<parameter key="message_greet" value="Hello, |PLAYERNAME|! I buy all gems,emeralds,rubyes 1 gold for each" />
+	<parameter key="shop_sellable" value="violet gem,2153,10000;yellow gem,2154,10000;big emerald,2155,10000;big ruby,2156,10000;blue gem,2157,10000;" />
+	
+	</parameters>
+</npc>

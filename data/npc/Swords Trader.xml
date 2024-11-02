@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Swords Trader" script="swords.lua" walkinterval="2500" floorchange="0">
+	<health now="100" max="100" />
+	<look type="160" head="132" body="79" legs="97" feet="132" addons="0" />
+	
+	<parameters>
+	
+	<parameter key="module_shop" value="1" />
+	<parameter key="message_greet" value="Hello, |PLAYERNAME|! I buy all swords what you can see here." />
+	<parameter key="shop_sellable" value="small sword,2376,50;jin sword,2386,100;demon sword,2392,500;short sword,2406,500;share sword,2408,1000;scimithar,2395,1500;z sword,2403,2000;rapier,2396,2000;light sword,2400,3000;janemba sword,2390,4000;gohan sword,2451,4000;soldier sword,2393,2000;vulcanic sword,2397,3000;spirit sword,2379,5000;sword of ice,7386,5000;frozen sword,2446,10000;sword of fire,7384,10000;sword of ghost,7385,100000;" />
+	
+	</parameters>
+</npc>

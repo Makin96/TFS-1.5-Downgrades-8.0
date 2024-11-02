@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bands Trader" script="bands.lua" walkinterval="2500" floorchange="0">
+	<health now="100" max="100" />
+	<look type="25" head="132" body="79" legs="97" feet="132" addons="0" />
+	<parameters>
+	<parameter key="module_shop" value="1" />
+	<parameter key="message_greet" value="Hello, |PLAYERNAME|! I sell all bands what you can see here." />
+	<parameter key="shop_buyable" value="black band,2169,1000;sword band,2207,1000;strenght band,2208,1000;weapon band,2209,1000;blue bands,2168,1000;red bands,2214,1000;two tones bands,2166,1000;" />
+	</parameters>
+</npc>

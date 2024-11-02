@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Guns Trader" script="guns.lua" walkinterval="2500" floorchange="0">
+	<health now="100" max="100" />
+	<look type="58" head="132" body="79" legs="97" feet="132" addons="0" />
+	<parameters>
+	<parameter key="module_shop" value="1" />
+	<parameter key="message_greet" value="Hello, |PLAYERNAME|! I buy all guns what you can see here." />
+	<parameter key="shop_sellable" value="sniper,2186,500;stronge gun,2183,1000;gun,2182,100;greeen gun,2181,400;uzi,2185,350;" />
+	</parameters>
+</npc>

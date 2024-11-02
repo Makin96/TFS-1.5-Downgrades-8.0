@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Namekjin Mindcontroller" nameDescription="a namekjin mindcontroller" race="blood" experience="35000" speed="300" manacost="255">
+    <health now="1000000" max="1000000"/>
+    <look type="177" head="50" body="50" legs="50" feet="50" corpse="3046"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+    <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+	<attack name="big bang attack" interval="2000" min="-4000" max="-15000"/>
+	<attack name="auto destruction" interval="2000" min="-4000" max="-20000"/>
+    </attacks>
+    <defenses armor="150" defense="150"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="My life for Ajur!"/>
+    </voices>
+<loot>
+
+ <item id="2656" countmax="1" chance1="20000" chancemax="0"/>
+ <item id="2547" countmax="70" chance1="50000" chancemax="0"/>
+ <item id="6544" countmax="1" chance1="50000" chancemax="0"/>
+ <item id="2002" countmax="1" chance1="50000" chancemax="0"/>
+ <item id="2455" countmax="1" chance1="50000" chancemax="0"/>
+ <item id="2673" countmax="3" chance1="20000" chancemax="0"/>
+  </loot>
+  </monster>

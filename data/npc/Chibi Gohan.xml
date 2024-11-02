@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Chibi Gohan" script="chibigohan.lua" walkinterval="1" floorchange="0">
+	<health now="100" max="100" />
+	<look type="28" head="132" body="79" legs="97" feet="132" addons="0" />
+	<parameters>
+	<parameter key="message_greet" value="Ueeeee Please |PLAYERNAME|! Can you help me? Ueeeee ueee" />
+	</parameters>
+</npc>

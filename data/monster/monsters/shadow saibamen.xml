@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Shadow Saibamen" nameDescription="an alien" race="blood" experience="1500" speed="480" manacost="255">
+    <health now="6000" max="6000"/>
+    <look type="159" head="95" body="95" legs="95" feet="95" corpse="3119"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+  <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-1550" max="-1800"/>
+      <attack name="sword bash" interval="2000" min="-250" max="-1900"/>
+    </attacks>
+    <defenses armor="56" defense="56"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+   <loot>
+ <item id="7372" countmax="1" chance1="1000" chancemax="0"/>
+  <item id="7373" countmax="1" chance1="1000" chancemax="0"/>  
+  <item id="7377" countmax="1" chance1="1000" chancemax="0"/>  
+  <item id="7374" countmax="1" chance1="1000" chancemax="0"/>
+  <item id="7375" countmax="1" chance1="1000" chancemax="0"/>  
+  <item id="7376" countmax="1" chance1="1000" chancemax="0"/>  
+<item id="2144" chance="25000"/>
+  </loot>
+    <voices interval="2000" chance="5">
+      <voice sentence=" Jaahaa! !"/>
+    </voices>
+  </monster>

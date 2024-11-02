@@ -1,0 +1,47 @@
+8
+
+dir
+2293
+https://opentibia.svn.sourceforge.net/svnroot/opentibia/otserv/trunk/data/spells
+https://opentibia.svn.sourceforge.net/svnroot/opentibia
+
+
+
+2007-06-27T23:36:44.522718Z
+2287
+otserv_simone
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c77455bc-2124-0410-8220-ac9e7aafbb94
+
+spells.xml
+file
+
+
+
+
+2007-06-29T13:32:16.578125Z
+1208f4d9d4e187bb312a8ed627bdc2ec
+2007-06-27T23:36:44.522718Z
+2287
+otserv_simone
+has-props
+
+lib
+dir
+
+scripts
+dir
+

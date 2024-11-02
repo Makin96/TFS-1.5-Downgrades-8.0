@@ -1,0 +1,49 @@
+	<monster name="Amon Re" nameDescription="a Undead Emperor" race="blood" experience="20000" speed="620" manacost="255">
+<health now="500000" max="500000"/>
+<look type="61" head="20" body="30" legs="40" feet="50" corpse="2809"/>
+<targetchange interval="60000" chance="0"/>
+<strategy attack="100" defense="0"/>
+	<flags>
+<flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+</flags>
+	<attacks>
+<attack name="melee" interval="2000" min="-3050" max="-5000"/>
+<attack name="arrow" interval="3000" chance="100" min="-3030" max="-5000"/>
+<attack name="big bang attack" interval="3000" chance="100" min="-3030" max="-10000"/>
+<attack name="ki blast" interval="3000" chance="100" min="-3030" max="-10000"/>
+</attacks>
+<defenses armor="50" defense="50"/>
+	<immunities>
+<immunity physical="0"/>
+<immunity energy="0"/>
+<immunity fire="0"/>
+<immunity poison="0"/>
+<immunity lifedrain="0"/>
+<immunity paralyze="0"/>
+<immunity outfit="0"/>
+<immunity drunk="0"/>
+<immunity invisible="0"/>
+</immunities>
+	<voices interval="2000" chance="5">
+<voice sentence="I'm Armon RE!"/>
+<voice sentence="Kneel before emperor!..."/>
+</voices>
+<loot>
+<item id="2673" chance="333"/>
+<item id="2673" chance="333"/>
+<item id="2656" chance="333"/>
+<item id="2433" chance="333"/>
+<item id="2430" chance="333"/>
+</loot>
+</monster>

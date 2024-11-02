@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Buu Gohan" nameDescription="a Demon" race="blood" experience="14000" speed="400" manacost="255">
+    <health now="180000" max="180000"/>
+    <look type="219" head="20" body="30" legs="40" feet="50" corpse="3055"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-1000" max="-2600"/>
+      <attack name="arrow" interval="3000" chance="100" min="-50" max="-1355"/>
+      <attack name="super ghost kamikadze attack" interval="3000" chance="100" min="-5500" max="-6000"/>
+      <attack name="bolt" interval="3000" chance="100" min="-400" max="-12800"/>
+      <attack name="big bolt" interval="3000" chance="100" min="-250" max="-6500"/>
+    </attacks>
+    <defenses armor="100" defense="100"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="Bububububu !"/>
+      <voice sentence="huh buuuu"/>
+     
+    </voices>
+<loot>
+ <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+ <item id="2488" chance="1000"/>
+ <item id="2207" chance="1000"/>
+ <item id="2208" chance="1000"/>
+ <item id="2209" chance="1000"/>
+ <item id="2214" chance="1000"/>
+ <item id="7464" chance="1000"/>
+ <item id="2214" chance="333"/>
+ <item id="2539" chance="333"/>
+ <item id="2686" countmax="3" chance1="1000" chancemax="0"/>
+ <item id="2673" countmax="2" chance1="333" chancemax="0"/>
+</loot>
+  </monster>

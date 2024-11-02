@@ -1,0 +1,366 @@
+8
+
+dir
+2293
+https://opentibia.svn.sourceforge.net/svnroot/opentibia/otserv/trunk/data/spells/scripts
+https://opentibia.svn.sourceforge.net/svnroot/opentibia
+
+
+
+2007-06-27T23:36:44.522718Z
+2287
+otserv_simone
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c77455bc-2124-0410-8220-ac9e7aafbb94
+
+magic wall.lua
+file
+
+
+
+
+2007-06-29T13:32:16.265625Z
+52f9fe3502da5894c54880cc0a993e0e
+2007-01-17T05:40:44.165001Z
+2141
+otserv_simone
+has-props
+
+apocalypse.lua
+file
+
+
+
+
+2007-06-29T13:32:16.250000Z
+883a718fe8cce7f61ae421c7a7555310
+2007-03-22T21:26:26.215379Z
+2237
+otserv_simone
+
+strong haste.lua
+file
+
+
+
+
+2007-06-29T13:32:16.281250Z
+019213f1ad152157c565e9320813bacb
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+healfriend.lua
+file
+
+
+
+
+2007-06-29T13:32:16.265625Z
+2d7f014d2058ba24a0b462226c14cfe1
+2006-11-29T10:59:02.000000Z
+2012
+otserv_simone
+has-props
+
+sd.lua
+file
+
+
+
+
+2007-06-29T13:32:16.312500Z
+6e11cb4d92384a08d318407ac3fff98d
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+magic rope.lua
+file
+
+
+
+
+2007-06-29T13:32:16.296875Z
+ae20117ca803749dfadc4f56e40a17a2
+2006-11-19T20:30:45.000000Z
+1958
+otserv_simone
+has-props
+
+whirlwind.lua
+file
+
+
+
+
+2007-06-29T13:32:16.328125Z
+a379cc080be75b0f17a020f9a9b4fddd
+2007-06-27T23:36:44.522718Z
+2287
+otserv_simone
+
+light.lua
+file
+
+
+
+
+2007-06-29T13:32:16.312500Z
+ead2addba29b69413bfd55f7cb15e86a
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+energy wall.lua
+file
+
+
+
+
+2007-06-29T13:32:16.343750Z
+7859a8ebf815c3f6cd39a0759a2b988f
+2007-01-17T05:40:44.165001Z
+2141
+otserv_simone
+has-props
+
+magic shield.lua
+file
+
+
+
+
+2007-06-29T13:32:16.343750Z
+02b7dc6d6354d10451e4e57c268868b7
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+magic prison.lua
+file
+
+
+
+
+2007-06-29T13:32:16.359375Z
+e8d9cdd2c0ccceaed43605a0a9713eb5
+2007-01-17T05:40:44.165001Z
+2141
+otserv_simone
+has-props
+
+uh.lua
+file
+
+
+
+
+2007-06-29T13:32:16.375000Z
+6075cca454cdd60202faba0f0674843c
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+energy wave.lua
+file
+
+
+
+
+2007-06-29T13:32:16.375000Z
+090a205d75164753f0da911341ea3f66
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+hmm.lua
+file
+
+
+
+
+2007-06-29T13:32:16.390625Z
+4618c68dc53d80c143503dd7afa87bc3
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+combustion.lua
+file
+
+
+
+
+2007-06-29T13:32:16.406250Z
+e42cc47866c6c6b38914954fba81e565
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+challenge.lua
+file
+
+
+
+
+2007-06-29T13:32:16.406250Z
+d1e33b270409a98fc91b2653a3b67f9d
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+drunk.lua
+file
+
+
+
+
+2007-06-29T13:32:16.421875Z
+863609a741ace42f7d4e0adf0fb0e3b2
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+invisible.lua
+file
+
+
+
+
+2007-06-29T13:32:16.437500Z
+f5b319073da55f39783f2348e7230614
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+ultimate explosion.lua
+file
+
+
+
+
+2007-06-29T13:32:16.453125Z
+ccb9be3efd23f8a98a551cdf153a396a
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+paralyze.lua
+file
+
+
+
+
+2007-06-29T13:32:16.453125Z
+27f19d6d778a17c5f9bfed7cf6ea95d7
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+fire field.lua
+file
+
+
+
+
+2007-06-29T13:32:16.468750Z
+8d5ca4cd0b5fa8f73a30c8d0604d4cba
+2007-01-17T05:40:44.165001Z
+2141
+otserv_simone
+has-props
+
+polymorph.lua
+file
+
+
+
+
+2007-06-29T13:32:16.484375Z
+ec87895b32b170ea7dbc72fa732340cb
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+monsters
+dir
+
+wild growth.lua
+file
+
+
+
+
+2007-06-29T13:32:16.484375Z
+c17d579bde5c20a0d609e44bd51bc1a7
+2006-11-12T16:10:46.000000Z
+1909
+mips_act
+has-props
+
+mass healing.lua
+file
+
+
+
+
+2007-06-29T13:32:16.500000Z
+5a0aa2e8ee8899e16108a56caf2b7836
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+
+destroy field.lua
+file
+
+
+
+
+2007-06-29T13:32:16.515625Z
+538e9ae7e343a6316900ee25b6f1ea66
+2007-01-29T01:07:10.740789Z
+2164
+otserv_simone
+
+gfb.lua
+file
+
+
+
+
+2007-06-29T13:32:16.515625Z
+76ed19d8e670906df0465983e62fda68
+2006-11-19T19:04:26.000000Z
+1953
+otserv_simone
+has-props
+

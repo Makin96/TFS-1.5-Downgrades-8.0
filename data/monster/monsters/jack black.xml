@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Mega Janemba" nameDescription="a Mega Janemba" race="blood" experience="20000" speed="400" manacost="255">
+    <health now="99999999" max="99999999"/>
+    <look type="134" head="20" body="30" legs="40" feet="50" corpse="4301"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+ <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+	<attack name="melee" interval="600" min="-2100" max="-20500"/>
+      <attack name="sword furie" interval="5000" chance="100" min="-25000" max="-70000"/>
+    </attacks>
+    <defenses armor="150" defense="150"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="I knew you all robots !"/>
+      <voice sentence="Burito Supreme"/>
+      <voice sentence="Arghh! Pirates ! Colors on the hoist!"/>
+      <voice sentence="Happy Andzejki"/>
+      <voice sentence="ANDRZEJKI!"/>
+    </voices>
+<loot>
+ <item id="2673" countmax="100" chance1="100000" chancemax="0"/>
+    <item id="2440" chance="1000"/>
+    <item id="2397" chance="1000"/>
+    <item id="2467" chance="1000"/>
+    <item id="2507" chance="1000"/>
+    <item id="7415" chance="1000"/>
+  </loot>
+  </monster>

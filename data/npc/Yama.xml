@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Yama" script="yama.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100" />
+	<look type="243" head="132" body="79" legs="97" feet="132" addons="0" />
+		<parameters>
+		<parameter key="message_greet" value="Welcome on Hell, |PLAYERNAME|. (Say again hi)" />
+	</parameters>
+</npc>
