@@ -3,6 +3,8 @@
 	<health now="100" max="100" />
 	<look type="306" head="132" body="79" legs="97" feet="132" addons="0" />
 	<parameters>
-	<parameter key="message_greet" value="Hello, |PLAYERNAME|! I buy all armors what you can see here?" />
+	<parameter key="module_shop" value="1" />
+	<parameter key="message_greet" value="Hello, |PLAYERNAME|! I buy all armors what you can see here." />
+	<parameter key="shop_sellable" value="black coat,2651,50;elven jacket,2505,100;sport jacket,2534,500;tunic,2467,600;goten armor,2654,3000;black power armor,2464,1000;red power armor,2500,1000;saiyan armor,2466,1500;raditz armor,2486,2000;piccolo armor,2489,2000;c16 armor,2664,2500;c17 armor,2476,3000;c18 armor,2508,3000;bardock armor,2658,2500;red scale armor,2494,3000;piccolo robe,2656,3000;ultra armor,2463,10000;goku armor,2472,30000;future trunks shirt,3968,30000;saiyajin armor,2483,50000;frozen armor,2657,50000;shin jacket,7463,60000;shin armor,2653,80000;vilage armor,2513,80000;super c17 armor,2655,100000;fusion armor,2510,100000;" />
 	</parameters>
 </npc>

@@ -3,6 +3,8 @@
 	<health now="100" max="100" />
 	<look type="298" head="132" body="79" legs="97" feet="132" addons="0" />
 	<parameters>
-	<parameter key="message_greet" value="Hello, |PLAYERNAME|!" />
+	<parameter key="module_shop" value="1" />
+	<parameter key="message_greet" value="Hello, |PLAYERNAME|! I buy all helmets what you can see here." />
+	<parameter key="shop_sellable" value="ninja helmet,2459,100;green detector,2462,300;chibi gohan cap,2343,500;soldier helmet,2479,800;viking cap,2663,1000;red detector,2457,1500;pai pai helmet,2480,1500;bardock bandana,2471,2000;piccolo helmet,2491,3000;piccolo cap,2475,3000;brolly amulation,2496,5000;great saiyan helmet,2493,10000;" />
 	</parameters>
 </npc>

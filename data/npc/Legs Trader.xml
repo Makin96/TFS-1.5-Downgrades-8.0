@@ -3,6 +3,8 @@
 	<health now="100" max="100" />
 	<look type="308" head="132" body="79" legs="97" feet="132" addons="0" />
 	<parameters>
-	<parameter key="message_greet" value="Hello, |PLAYERNAME|!" />
+	<parameter key="module_shop" value="1" />
+	<parameter key="message_greet" value="Hello, |PLAYERNAME|! I buy all legs what you can see here." />
+	<parameter key="shop_sellable" value="green scale legs,2495,400;majin legs,2647,800;c17 legs,2477,1000;bardock legs,2460,1500;gohan legs,2478,2000;soldier legs,2468,1000;piccolo legs,2488,2500;saiyan legs,2649,2500;goku legs,2504,5000;brolly legs,2470,10000;ussj legs,2648,20000;goku ssj5 legs,2469,100000;" />
 	</parameters>
 </npc>
