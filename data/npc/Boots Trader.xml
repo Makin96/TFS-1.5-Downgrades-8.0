@@ -3,6 +3,8 @@
 	<health now="100" max="100" />
 	<look type="307" head="132" body="79" legs="97" feet="132" addons="0" />
 	<parameters>
+	<parameter key="module_shop" value="1" />
 	<parameter key="message_greet" value="Hello, |PLAYERNAME|! I buy all boots what you can see here" />
+	<parameter key="shop_sellable" value="saiyan boots,2195,1000;human boots,3982,500;elf boots,2644,1000;brolly boots,2642,2000;c17 boots,2645,2500;future trunks boots,2641,3000;super c17 boots,2358,4000;bardock boots,2643,5000;majin boots,2646,10000;goku boots,7457,100000;" />
 	</parameters>
 </npc>

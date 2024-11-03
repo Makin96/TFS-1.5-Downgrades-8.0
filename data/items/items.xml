@@ -7134,7 +7134,7 @@
 		<attribute key="armor" value="25"/>
 		<attribute key="slotType" value="feet"/>
 	</item>
-	<item id="2644" name="boots">
+	<item id="2644" name="elf boots">
 		<attribute key="weight" value="1200"/>
 	<attribute key="armor" value="1"/>
 		<attribute key="slotType" value="feet"/>

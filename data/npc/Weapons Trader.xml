@@ -3,6 +3,8 @@
 	<health now="100" max="100" />
 	<look type="309" head="132" body="79" legs="97" feet="132" addons="0" />
 	<parameters>
+	<parameter key="module_shop" value="1" />
 	<parameter key="message_greet" value="Hello, |PLAYERNAME|! I buy all weapons what you can see here" />
+	<parameter key="shop_sellable" value="rines,2382,10;staff,2398,100;castet,2432,1000;saw,2417,500;full staff,2434,2000;goku staff,2401,5000;nunhacko,2391,10000;" />
 	</parameters>
 </npc>
