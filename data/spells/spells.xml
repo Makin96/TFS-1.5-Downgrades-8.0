@@ -160,84 +160,118 @@
 
 
   
-
-<rune name="Kaioken Wave"		id="2305"	charges="1" 	 needtarget="1" 		mana="150"		maglv="25" exhaustion="1" enabled="1" allowfaruse="1" script="runes/kaioken wave.lua"></rune>
-<rune name="Big Kaioken Wave"		id="2304"	charges="1"		needtarget="1" 		mana="500"		maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/big kaioken wave.lua"></rune>
-<rune name="Barrier"			id="2278"   charges="1" 					mana="200"		maglv="35" exhaustion="1" enabled="1" allowfaruse="1" script="runes/barrier.lua"></rune>
-<rune name="gda"			id="2313"	charges="1" needtarget="1" 			mana="2000"		maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/gda.lua"></rune>
-<rune name="Kikhoho"			id="2279"	charges="1"						mana="400"		maglv="5" exhaustion="1" enabled="1" allowfaruse="1" script="runes/kikhoho.lua"></rune>
-<rune name="Burning wave"		id="2272"	charges="1" 					mana="1000"		maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/burning wave.lua"></rune>
-<rune name="Chobakuretsumaha"		id="2270"	charges="1"  needtarget="1" 			mana="500"		maglv="50"  exhaustion="1" enabled="1" allowfaruse="1" script="runes/chobakuretsumaha.lua"></rune>
-<rune name="Big Bang Attack"		id="2311"	charges="1" needtarget="1" 			mana="2000"		maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/big bang attack.lua"></rune>
-<rune name="Final Flash"		id="2268"	charges="1" needtarget="1" 			mana="500"		maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/final flash.lua"></rune>
-<rune name="Bolt"				id="2287"	charges="1" needtarget="1" 			mana="30"		maglv="5" exhaustion="1" enabled="1" allowfaruse="1" script="runes/bolt.lua"></rune>
-<rune name="Taioken"			id="2315"   charges="1" aggressive="0" needtarget="1" mana="10"		maglv="0" exhaustion="1" enabled="1" allowfaruse="1" script="runes/taioken.lua"></rune>
-<rune name="Speed Up"			id="2284"	charges="1" aggressive="0" needtarget="1" mana="100"		maglv="10" exhaustion="1" enabled="1" allowfaruse="1" script="runes/speed up.lua"></rune>
-<rune name="Senzu"			id="2273"	charges="1" aggressive="0" needtarget="1" mana="400"		maglv="30" exhaustion="1" enabled="1" allowfaruse="1" script="runes/senzu.lua"></rune>
-<rune name="Ressurection"		id="2282"   charges="1" aggressive="0" needtarget="1" mana="2000"		maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/ressurection.lua"></rune>
-<rune name="Kienzan"			id="2295"	charges="1" 					mana="150"		maglv="25" exhaustion="1" enabled="1" allowfaruse="1"  script="runes/kienzan.lua"></rune>
-<rune name="Kamehameha"			id="2275"	charges="1" needtarget="1" 			mana="200"		maglv="35" exhaustion="1" enabled="1" allowfaruse="1" script="runes/kamehameha.lua"></rune>
-<rune name="Masenko"			id="2276"	charges="1"						mana="750"		maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/masenko.lua"></rune>
-<rune name="Dragon Fist"		id="2277"	charges="1" needtarget="1" 			mana="1000"		maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/dragon fist.lua"></rune>
-<rune name="Big Bolt"			id="2269"	charges="1" needtarget="1" 			mana="50"		maglv="15" exhaustion="1" enabled="1" allowfaruse="1" script="runes/boltek.lua"></rune>
-<rune name="Full spirit"		id="2310"	charges="1" needtarget="1" 			mana="750"		maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/full spirit.lua"></rune>
-<rune name="Heller"			id="2309"	charges="1" aggressive="0" needtarget="1" mana="100"		maglv="20" exhaustion="1" enabled="1" allowfaruse="1" script="runes/heller.lua"></rune>
-<rune name="Big Heller"			id="2308"	charges="1" aggressive="0" needtarget="1" mana="300"		maglv="40" exhaustion="1" enabled="1" allowfaruse="1" script="runes/big heller.lua"></rune>
-<rune name="Ki Blast"			id="2288"	charges="1" 	 needtarget="1" 		mana="200"		maglv="35" exhaustion="1" enabled="1" allowfaruse="1" script="runes/ki blast.lua"></rune>
-<rune name="dunk shot"			id="2283"	charges="1" needtarget="1" 			mana="2000"		maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/dunk shot.lua"></rune>
-<rune name="Explosion"			id="2297"	charges="1" 					mana="2000"		maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/explosion.lua"></rune>
-<rune name="Misty Kiwave"		id="2296"	charges="1" needtarget="1" 			mana="2000"		maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/misty kiwave.lua"></rune>
-<rune name="Punch"			id="2292"	charges="1" 					mana="1000"		maglv="70" exhaustion="1" enabled="1" allowfaruse="1"  script="runes/punch.lua"></rune>
-<rune name="Drain"			id="2291"	charges="1" needtarget="1" 			mana="750"		maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/drain.lua"></rune>
-<rune name="Flash"			id="2302"	charges="1" needtarget="1" 			mana="500"		maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/flash.lua"></rune>
-<rune name="lightbomb"			id="2290"	charges="1" needtarget="1" 			mana="1000"		maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/lightbomb.lua"></rune>
-<rune name="small ressurection"	id="2298"	charges="1" aggressive="0" needtarget="1" mana="100"		maglv="20" exhaustion="1" enabled="1" allowfaruse="1" script="runes/small ressurection.lua"></rune>
-<rune name="big ressurection"		id="2306"	charges="1" aggressive="0" needtarget="1" mana="300"		maglv="40" exhaustion="1" enabled="1" allowfaruse="1" script="runes/big ressurection.lua"></rune>
-<rune name="breath"			id="2289"	charges="1"						mana="1000"		maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/breath.lua"></rune>
-<rune name="dush"				id="2299"	charges="1" 					mana="2000"		maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/dush.lua"></rune>
-<rune name="nova"				id="2293"	charges="1" needtarget="1" 			mana="2000"		maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/nova.lua"></rune>
-<rune name="fingerki"			id="2294"	charges="1"	 needtarget="1" 			mana="500"		maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/fingerki.lua"></rune>
-<rune name="freezadush"			id="2303"	charges="1"		 				mana="750"		maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/freezadush.lua"></rune>
-<rune name="Chocolinare"		id="2281"	charges="1" needtarget="1" 			mana="500"		maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/chocolinare.lua"></rune>
-<rune name="One Hand Ki Wave"		id="2300"	charges="1" needtarget="1" 			mana="750"		maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/teleport.lua"></rune>
-<rune name="celljr"			id="2301"	charges="1" needtarget="1"		 	mana="1000"		maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/celljr.lua"></rune>
-<rune name="Draine"			id="2261"	charges="1" needtarget="1" 			mana="750"		maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/draine.lua"></rune>
-<rune name="Mega Speed"			id="2312"	charges="1" aggressive="0" needtarget="1" mana="100"		maglv="10" exhaustion="1" enabled="1" allowfaruse="1" script="runes/mega speed.lua"></rune>
-<rune name="Namek Heal"			id="2280"	charges="1" aggressive="0" needtarget="1" mana="100"		maglv="20" exhaustion="1" enabled="1" allowfaruse="1" script="runes/namek heal.lua"></rune>
-<rune name="Dunk Ball"			id="2314"	charges="1" 					mana="150"		maglv="25" exhaustion="1" enabled="1" allowfaruse="1"  script="runes/dunk ball.lua"></rune>
-<rune name="Vis Kienzan"		id="2286"	charges="1" 					mana="150"		maglv="25" exhaustion="1" enabled="1" allowfaruse="1"  script="runes/vis kienzan.lua"></rune>
-<rune name="Fury Flash"			id="2267"	charges="1" needtarget="1" 			mana="200"		maglv="35" exhaustion="1" enabled="1" allowfaruse="1" script="runes/fury flash.lua"></rune>
-<rune name="Old Namek Heal"		id="2273"	charges="1" aggressive="0" needtarget="1" mana="300"		maglv="40" exhaustion="1" enabled="1" allowfaruse="1" script="runes/old namek heal.lua"></rune>
-<rune name="Two Hands Fury"		id="2266"	charges="1" 					mana="500"		maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/two hands fury.lua"></rune>
-<rune name="Tornado"			id="2316"	charges="1" 					mana="750"		maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/tornado.lua"></rune>
-<rune name="Ultra Flash"		id="2307"	charges="1" needtarget="1" 			mana="1000"		maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/ultra flash.lua"></rune>
-<rune name="Znire"			id="2285"	charges="1"	needtarget="1" 		mana="1000"		maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/znire.lua"></rune>
-<rune name="Ki Sword"			id="2261"	charges="1"	needtarget="1" 		mana="2000"		maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/ki sword.lua"></rune>
-<rune name="Namek Power Flash"	id="2271"	charges="1"		needtarget="1" 	mana="2000"		maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/namek power flash.lua"></rune>
-
-
+	<!-- Rune Spells -->
+<rune name="Kaioken Wave" id="2305"	charges="1" needtarget="1" mana="150" maglv="25" exhaustion="1" enabled="1" allowfaruse="1" script="runes/kaioken wave.lua"/>
+<rune name="Big Kaioken Wave" id="2304"	charges="1"	needtarget="1" mana="500" maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/big kaioken wave.lua"/>
+<rune name="Barrier" id="2278" charges="1" mana="200" maglv="35" exhaustion="1" enabled="1" allowfaruse="1" script="runes/barrier.lua"/>
+<rune name="gda" id="2313"	charges="1" needtarget="1" mana="2000" maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/gda.lua"/>
+<rune name="Kikhoho" id="2279"	charges="1"	mana="400" maglv="5" exhaustion="1" enabled="1" allowfaruse="1" script="runes/kikhoho.lua"/>
+<rune name="Burning wave" id="2272"	charges="1" mana="1000"	maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/burning wave.lua"/>
+<rune name="Chobakuretsumaha" id="2270"	charges="1" needtarget="1" mana="500" maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/chobakuretsumaha.lua"/>
+<rune name="Big Bang Attack" id="2311" charges="1" needtarget="1" mana="2000" maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/big bang attack.lua"/>
+<rune name="Final Flash" id="2268" charges="1" needtarget="1" mana="500" maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/final flash.lua"/>
+<rune name="Bolt" id="2287"	charges="1" needtarget="1" mana="30" maglv="5" exhaustion="1" enabled="1" allowfaruse="1" script="runes/bolt.lua"/>
+<rune name="Taioken" id="2315" charges="1" aggressive="0" needtarget="1" mana="10" maglv="0" exhaustion="1" enabled="1" allowfaruse="1" script="runes/taioken.lua"/>
+<rune name="Speed Up" id="2284"	charges="1" aggressive="0" needtarget="1" mana="100" maglv="10" exhaustion="1" enabled="1" allowfaruse="1" script="runes/speed up.lua"/>
+<rune name="Senzu" id="2273" charges="1" aggressive="0" needtarget="1" mana="400" maglv="30" exhaustion="1" enabled="1" allowfaruse="1" script="runes/senzu.lua"/>
+<rune name="Ressurection" id="2282" charges="1" aggressive="0" needtarget="1" mana="2000" maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/ressurection.lua"/>
+<rune name="Kienzan" id="2295" charges="1" mana="150" maglv="25" exhaustion="1" enabled="1" allowfaruse="1"  script="runes/kienzan.lua"/>
+<rune name="Kamehameha"	id="2275" charges="1" needtarget="1" mana="200" maglv="35" exhaustion="1" enabled="1" allowfaruse="1" script="runes/kamehameha.lua"/>
+<rune name="Masenko" id="2276" charges="1" mana="750" maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/masenko.lua"/>
+<rune name="Dragon Fist" id="2277" charges="1" needtarget="1" mana="1000" maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/dragon fist.lua"/>
+<rune name="Big Bolt" id="2269"	charges="1" needtarget="1" mana="50" maglv="15" exhaustion="1" enabled="1" allowfaruse="1" script="runes/boltek.lua"/>
+<rune name="Full spirit" id="2310" charges="1" needtarget="1" mana="750" maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/full spirit.lua"/>
+<rune name="Heller"	id="2309" charges="1" aggressive="0" needtarget="1" mana="100" maglv="20" exhaustion="1" enabled="1" allowfaruse="1" script="runes/heller.lua"/>
+<rune name="Big Heller"	id="2308" charges="1" aggressive="0" needtarget="1" mana="300" maglv="40" exhaustion="1" enabled="1" allowfaruse="1" script="runes/big heller.lua"/>
+<rune name="Ki Blast" id="2288"	charges="1" needtarget="1" mana="200" maglv="35" exhaustion="1" enabled="1" allowfaruse="1" script="runes/ki blast.lua"/>
+<rune name="dunk shot" id="2283" charges="1" needtarget="1" mana="2000" maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/dunk shot.lua"/>
+<rune name="Explosion" id="2297" charges="1" mana="2000" maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/explosion.lua"/>
+<rune name="Misty Kiwave" id="2296"	charges="1" needtarget="1" mana="2000" maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/misty kiwave.lua"/>
+<rune name="Punch" id="2292" charges="1" mana="1000" maglv="70" exhaustion="1" enabled="1" allowfaruse="1"  script="runes/punch.lua"/>
+<rune name="Drain" id="2291" charges="1" needtarget="1" mana="750" maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/drain.lua"/>
+<rune name="Flash" id="2302" charges="1" needtarget="1" mana="500" maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/flash.lua"/>
+<rune name="lightbomb" id="2290" charges="1" needtarget="1" mana="1000" maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/lightbomb.lua"/>
+<rune name="small ressurection"	id="2298" charges="1" aggressive="0" needtarget="1" mana="100" maglv="20" exhaustion="1" enabled="1" allowfaruse="1" script="runes/small ressurection.lua"/>
+<rune name="big ressurection" id="2306"	charges="1" aggressive="0" needtarget="1" mana="300" maglv="40" exhaustion="1" enabled="1" allowfaruse="1" script="runes/big ressurection.lua"/>
+<rune name="breath"	id="2289" charges="1" mana="1000" maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/breath.lua"/>
+<rune name="dush" id="2299"	charges="1" mana="2000" maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/dush.lua"/>
+<rune name="nova" id="2293"	charges="1" needtarget="1" mana="2000" maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/nova.lua"/>
+<rune name="fingerki" id="2294"	charges="1" needtarget="1" mana="500" maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/fingerki.lua"/>
+<rune name="freezadush"	id="2303" charges="1" mana="750" maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/freezadush.lua"/>
+<rune name="Chocolinare" id="2281" charges="1" needtarget="1" mana="500" maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/chocolinare.lua"/>
+<rune name="One Hand Ki Wave" id="2300"	charges="1" needtarget="1" mana="750" maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/teleport.lua"/>
+<rune name="celljr"	id="2301" charges="1" needtarget="1" mana="1000" maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/celljr.lua"/>
+<rune name="Draine"	id="2261" charges="1" needtarget="1" mana="750"	maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/draine.lua"/>
+<rune name="Mega Speed"	id="2312" charges="1" aggressive="0" needtarget="1" mana="100" maglv="10" exhaustion="1" enabled="1" allowfaruse="1" script="runes/mega speed.lua"/>
+<rune name="Namek Heal"	id="2280" charges="1" aggressive="0" needtarget="1" mana="100" maglv="20" exhaustion="1" enabled="1" allowfaruse="1" script="runes/namek heal.lua"/>
+<rune name="Dunk Ball" id="2314" charges="1" mana="150"	maglv="25" exhaustion="1" enabled="1" allowfaruse="1" script="runes/dunk ball.lua"/>
+<rune name="Vis Kienzan" id="2286" charges="1" mana="150" maglv="25" exhaustion="1" enabled="1" allowfaruse="1" script="runes/vis kienzan.lua"/>
+<rune name="Fury Flash"	id="2267" charges="1" needtarget="1" mana="200"	maglv="35" exhaustion="1" enabled="1" allowfaruse="1" script="runes/fury flash.lua"/>
+<rune name="Old Namek Heal"	id="2273" charges="1" aggressive="0" needtarget="1" mana="300" maglv="40" exhaustion="1" enabled="1" allowfaruse="1" script="runes/old namek heal.lua"/>
+<rune name="Two Hands Fury"	id="2266" charges="1" mana="500" maglv="50" exhaustion="1" enabled="1" allowfaruse="1" script="runes/two hands fury.lua"/>
+<rune name="Tornado" id="2316" charges="1" mana="750" maglv="60" exhaustion="1" enabled="1" allowfaruse="1" script="runes/tornado.lua"/>
+<rune name="Ultra Flash" id="2307" charges="1" needtarget="1" mana="1000" maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/ultra flash.lua"/>
+<rune name="Znire" id="2285" charges="1" needtarget="1" mana="1000"	maglv="70" exhaustion="1" enabled="1" allowfaruse="1" script="runes/znire.lua"/>
+<rune name="Ki Sword" id="2261"	charges="1"	needtarget="1" mana="2000" maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/ki sword.lua"/>
+<rune name="Namek Power Flash" id="2271" charges="1" needtarget="1" mana="2000"	maglv="80" exhaustion="1" enabled="1" allowfaruse="1" script="runes/namek power flash.lua"/>
 
 
+<instant name="arrow" words="arrow" needtarget="1" direction="1" lvl="300" 	maglv="300"	mana="2000" soul="0" exhaustion="1" prem="0" enabled="1" script="arrow.lua">
+<vocation name="Uub form one"/>
+<vocation name="Uub Form Five"/>
+<vocation name="Uub Gt"/>
+<vocation name="Uub2 Gt"/>
+<vocation name="Uub3 Gt"/>
+<vocation name="Uub4 Gt"/>
+<vocation name="Uub5 Gt"/>
+<vocation name="Uub form two"/>
+<vocation name="Uub form three"/>
+<vocation name="Uub form four"/>
+<vocation name="Uub form one"/>
+<vocation name="Uub Form Five"/>
+<vocation name="Uub Gt"/>
+<vocation name="Uub2 Gt"/>
+<vocation name="Uub3 Gt"/>
+<vocation name="Uub4 Gt"/>
+<vocation name="Uub5 Gt"/>
+<vocation name="Uub form two"/>
+<vocation name="Uub form three"/>
+<vocation name="Uub form four"/>
+<vocation name="Cell First Form"/>
+<vocation name="Cell Ultra Form"/>
+<vocation name="Cell jr Gt"/>
+<vocation name="Cell Gt"/>
+<vocation name="Cell Second Form"/>
+<vocation name="Cell Perfect Form"/>
+<vocation name="Cell Ultimate Form"/>
+<vocation name="Freeza on Ship"/>
+<vocation name="Freeza Gt"/>
+<vocation name="Freeza Two Gt"/>
+<vocation name="Freeza Three Gt"/>
+<vocation name="Freeza Four Gt"/>
+<vocation name="Freeza Evil Gt"/>
+<vocation name="Freeza Evil Gt"/>
+<vocation name="Freeza Form One"/>
+<vocation name="Freeza Form Two"/>
+<vocation name="Freeza Form Three"/>
+<vocation name="Freeza Form Four"/>
+<vocation name="Freeza Ultra Form"/>
+<vocation name="Mecha Freeza"/>
+<vocation name="Goku"/>
+<vocation name="Chibi Goku SSJ3"/>
+<vocation name="Goku Golden Oozaru"/>
+<vocation name="Super Saiyan 4 Goku"/>
+<vocation name="Chibi Goku"/>
+<vocation name="Chibi Goku SSJ"/>
+<vocation name="Chibi Goku SSJ2"/>
+<vocation name="Kaioken Goku"/>
+<vocation name="Super Saiyan Goku"/>
+<vocation name="Ultra Saiyan Goku"/>
+<vocation name="Super Saiyan 2 Goku"/>
+<vocation name="Super Saiyan 3 Goku"/>
+<vocation name="Full Super Saiyan 3 Goku"/>
+</instant>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<instant name="arrow" 				words="arrow" needtarget="1" 				direction="1" lvl="300" 				maglv="300"	mana="2000" soul="0" exhaustion="1" prem="0" enabled="1" script="arrow.lua"><vocation name="Uub form one"/><vocation name="Uub Form Five"/><vocation name="Uub Gt"/><vocation name="Uub2 Gt"/><vocation name="Uub3 Gt"/><vocation name="Uub4 Gt"/><vocation name="Uub5 Gt"/><vocation name="Uub form two"/><vocation name="Uub form three"/><vocation name="Uub form four"/><vocation name="Uub form one"/><vocation name="Uub Form Five"/><vocation name="Uub Gt"/><vocation name="Uub2 Gt"/><vocation name="Uub3 Gt"/><vocation name="Uub4 Gt"/><vocation name="Uub5 Gt"/><vocation name="Uub form two"/><vocation name="Uub form three"/><vocation name="Uub form four"/><vocation name="Cell First Form"/><vocation name="Cell Ultra Form"/><vocation name="Cell jr Gt"/><vocation name="Cell Gt"/><vocation name="Cell Second Form"/><vocation name="Cell Perfect Form"/><vocation name="Cell Ultimate Form"/><vocation name="Freeza on Ship"/><vocation name="Freeza Gt"/><vocation name="Freeza Two Gt"/><vocation name="Freeza Three Gt"/><vocation name="Freeza Four Gt"/><vocation name="Freeza Evil Gt"/><vocation name="Freeza Evil Gt"/><vocation name="Freeza Form One"/><vocation name="Freeza Form Two"/><vocation name="Freeza Form Three"/><vocation name="Freeza Form Four"/><vocation name="Freeza Ultra Form"/><vocation name="Mecha Freeza"/><vocation name="Goku"/>vocation name="Chibi Goku SSJ3"/><vocation name="Goku Golden Oozaru"/><vocation name="Super Saiyan 4 Goku"/><vocation name="Chibi Goku"/><vocation name="Chibi Goku SSJ"/><vocation name="Chibi Goku SSJ2"/><vocation name="Kaioken Goku"/><vocation name="Super Saiyan Goku"/><vocation name="Ultra Saiyan Goku"/><vocation name="Super Saiyan 2 Goku"/><vocation name="Super Saiyan 3 Goku"/><vocation name="Full Super Saiyan 3 Goku"/></instant>
-<instant name="janemba skill" 			words="janemba skill"  needtarget="1"	direction="1" lvl="75" 				maglv="270"  mana="7000" soul="0" exhaustion="1" prem="0" enabled="1" script="janemba skill.lua"></instant>
+<instant name="janemba skill" words="janemba skill" needtarget="1" direction="1" lvl="75" maglv="270" mana="7000" soul="0" exhaustion="1" prem="0" enabled="1" script="janemba skill.lua">
+</instant>
 </spells>
