@@ -1,12 +1,12 @@
 --------- Special UE By WilkU --------------
 local combat1 = createCombatObject()
 setCombatParam(combat1, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-setCombatParam(combat1, COMBAT_PARAM_EFFECT, 191)
+setCombatParam(combat1, COMBAT_PARAM_EFFECT, 192)
 setCombatFormula(combat1, COMBAT_FORMULA_LEVELMAGIC, -8.0, 0, -8.5, 0)
 
 local combat2 = createCombatObject()
 setCombatParam(combat2, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-setCombatParam(combat2, COMBAT_PARAM_EFFECT, 231)
+setCombatParam(combat2, COMBAT_PARAM_EFFECT, 232)
 setCombatFormula(combat2, COMBAT_FORMULA_LEVELMAGIC, -8.0, 0, -8.5, 0)
 
 
