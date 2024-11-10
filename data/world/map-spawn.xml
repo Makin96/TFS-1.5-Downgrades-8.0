@@ -158,7 +158,6 @@
 	<spawn centerx="45" centery="395" centerz="2" radius="5">
 		<monster name="Kamikadze Ghost" x="1" y="2" z="2" spawntime="60" />
 	</spawn>
-	<spawn centerx="58" centery="395" centerz="2" radius="5" />
 	<spawn centerx="277" centery="401" centerz="2" radius="5">
 		<monster name="Assasin" x="2" y="2" z="2" spawntime="60" />
 	</spawn>

@@ -6,7 +6,7 @@ local condition2 = createConditionObject(CONDITION_PARALYZE)
 setConditionParam(condition, CONDITION_PARAM_TICKS, 20000)
 setConditionParam(condition, CONDITION_PARAM_SPEED, -200)
 addOutfitCondition(condition, 0, 13, 0, 0, 0, 0)
-setCombatCondition(combat, condition)
+addCombatCondition(combat, condition)
 
 local area = createCombatArea( { {0, 0, 0}, {0, 3, 0}, {0, 0, 0} } )
 setCombatArea(combat, area)
