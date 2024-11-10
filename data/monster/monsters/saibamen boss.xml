@@ -20,7 +20,7 @@
     </flags>
     <attacks>
       <attack name="melee" interval="2000" min="-2250" max="-4500"/>
-      <attack name="big bolt" interval="2000" min="-2250" max="-7500"/>
+      <attack name="big bolt" interval="2000" chance="100" min="-2250" max="-7500"/>
     </attacks>
     <defenses armor="56" defense="56"/>
     <immunities>

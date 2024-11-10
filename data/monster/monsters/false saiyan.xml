@@ -20,7 +20,7 @@
     </flags>
     <attacks>
  <attack name="melee" interval="2000" min="-1500" max="-2500"/>
-      <attack name="big bolt" interval="2000" min="-600" max="-2000"/>
+      <attack name="big bolt" interval="2000" chance="100" min="-600" max="-2000"/>
             <attack name="kienzan" interval="3000" chance="100" min="-3000" max="-4000"/>
       <attack name="big bolt" interval="3000" chance="100" min="-2000" max="-5000"/>
     </attacks>

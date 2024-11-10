@@ -20,7 +20,7 @@
     </flags>
     <attacks>
       <attack name="melee" interval="2000" min="-1550" max="-1800"/>
-      <attack name="sword bash" interval="2000" min="-250" max="-1900"/>
+      <attack name="sword bash" interval="2000" chance="100" min="-250" max="-1900"/>
     </attacks>
     <defenses armor="56" defense="56"/>
     <immunities>

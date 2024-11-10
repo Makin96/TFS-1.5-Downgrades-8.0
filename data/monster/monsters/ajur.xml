@@ -19,10 +19,10 @@
       <flag runonhealth="70000"/>
     </flags>
     <attacks>
-	<attack name="renzoku energy dan" interval="2000" min="-1000" max="-5000"/>
-	<attack name="furie" interval="2000" min="-1000" max="-12000"/>
+	<attack name="renzoku energy dan" interval="2000" chance="100" min="-1000" max="-5000"/>
+	<attack name="furie" interval="2000" chance="100" min="-1000" max="-12000"/>
 	<attack name="melee" interval="2000" min="-1000" max="-12000"/>
-	<attack name="crusher ball" interval="2000" min="-1000" max="-20000"/>
+	<attack name="crusher ball" interval="2000" chance="100" min="-1000" max="-20000"/>
     </attacks>
     <defenses armor="150" defense="150"/>
     <immunities>

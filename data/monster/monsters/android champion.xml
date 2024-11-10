@@ -20,7 +20,7 @@
     </flags>
     <attacks>
       <attack name="melee" interval="2000" min="-300" max="-400"/>
-      <attack name="bolt" interval="3000" chance="100" min="-230" max="-750"/>
+      <attack name="bolt" interval="3000" chance="100" chance="100" min="-230" max="-750"/>
     </attacks>
     <defenses armor="20" defense="20"/>
     <immunities>

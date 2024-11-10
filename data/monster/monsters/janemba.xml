@@ -20,14 +20,12 @@
     </flags>
     <attacks>
       <attack name="melee" interval="2000" min="-800" max="-821"/>
-      <attack name="sword bash" interval="2000" min="-700" max="-1200"/>
-      <attack name="furie" interval="2000" min="-700" max="-1800"/>
-      <attack name="sword furie" interval="2000" min="-800" max="-1300"/>
-      <attack name="sword furie" interval="2000" min="-800" max="-1500"/>
-
-      <attack name="bakuhatsuha" interval="2000" min="-700" max="-1900"/>
-
-      <attack name="ki blast" interval="2000" min="-1000" max="-3500"/>
+      <attack name="sword bash" interval="2000" chance="100" min="-700" max="-1200"/>
+      <attack name="furie" interval="2000" chance="100" min="-700" max="-1800"/>
+      <attack name="sword furie" interval="2000" chance="100" min="-800" max="-1300"/>
+      <attack name="sword furie" interval="2000" chance="100" min="-800" max="-1500"/>
+      <attack name="bakuhatsuha" interval="2000" chance="100" min="-700" max="-1900"/>
+      <attack name="ki blast" interval="2000" chance="100" min="-1000" max="-3500"/>
 
     </attacks>
     <defenses armor="125" defense="125"/>

@@ -20,8 +20,7 @@
     </flags>
     <attacks>
  <attack name="melee" interval="2000" min="-200" max="-300"/>
-      <attack name="bolt" interval="2000" min="-330" max="-390"/>
-      <attack name="bolt" interval="3000" chance="100" min="-300" max="-600"/>
+      <attack name="bolt" interval="1000" chance="100" min="-300" max="-600"/>
       <attack name="vis kienzan" interval="3000" chance="100" min="-500" max="-700"/>
   <attack name="fingerki" interval="3000" chance="100" min="-500" max="-1700"/>
     </attacks>

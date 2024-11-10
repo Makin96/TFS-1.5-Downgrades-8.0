@@ -20,7 +20,7 @@
     </flags>
     <attacks>
       <attack name="melee" interval="1500" min="-1200" max="-2200"/>
-      <attack name="crusher ball" interval="8000" min="-2200" max="-7200"/>
+      <attack name="crusher ball" interval="8000" chance="100" min="-2200" max="-7200"/>
     </attacks>
     <defenses armor="10" defense="10"/>
     <immunities>

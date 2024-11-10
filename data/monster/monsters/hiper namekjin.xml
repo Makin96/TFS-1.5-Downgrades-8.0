@@ -20,7 +20,7 @@
     </flags>
     <attacks>
  <attack name="melee" interval="2000" min="-800" max="-900"/>
-      <attack name="bolt" interval="2000" min="-830" max="-2990"/>
+      <attack name="bolt" interval="2000" chance="100" min="-830" max="-2990"/>
       <attack name="big bolt" interval="3000" chance="100" min="-800" max="-4200"/>
       <attack name="chobakuretsumaha" interval="3000" chance="100" min="-800" max="-3300"/>
       <attack name="arrow" interval="3000" chance="100" min="-2000" max="-2000"/>

@@ -20,11 +20,11 @@
     </flags>
     <attacks>
       <attack name="melee" interval="2000" min="-500" max="-501"/>
-      <attack name="bolt" interval="2000" min="-700" max="-1200"/>
-      <attack name="big bolt" interval="2000" min="-700" max="-1800"/>
-      <attack name="big bolt" interval="2000" min="-800" max="-1300"/>
-      <attack name="Dunk Ball" interval="2000" min="-700" max="-8700"/>
-      <attack name="vis kienzan" interval="2000" min="-700" max="-1900"/>
+      <attack name="bolt" interval="2000" chance="100" min="-700" max="-1200"/>
+      <attack name="big bolt" interval="2000" chance="100" min="-700" max="-1800"/>
+      <attack name="big bolt" interval="2000" chance="100" min="-800" max="-1300"/>
+      <attack name="Dunk Ball" interval="2000" chance="100" min="-700" max="-8700"/>
+      <attack name="vis kienzan" interval="2000" chance="100" min="-700" max="-1900"/>
     </attacks>
     <defenses armor="105" defense="105"/>
     <immunities>
