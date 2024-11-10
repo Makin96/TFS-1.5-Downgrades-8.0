@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Cell Jr" nameDescription="a bioandroid" race="poison" experience="7500" speed="400" manacost="255">
+  <monster name="Cell Jr" nameDescription="a bioandroid" race="blood" experience="7500" speed="400" manacost="255">
     <health now="60000" max="60000"/>
     <look type="118" head="20" body="30" legs="40" feet="50" corpse="6045"/>
     <targetchange interval="60000" chance="0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Bojack" nameDescription="a bojack" race="poison" experience="15000" speed="400" manacost="255">
+  <monster name="Bojack" nameDescription="a bojack" race="blood" experience="15000" speed="400" manacost="255">
     <health now="250000" max="250000"/>
     <look type="233" head="20" body="30" legs="40" feet="50" corpse="3003"/>
     <targetchange interval="60000" chance="0"/>
@@ -22,9 +22,7 @@
       <attack name="melee" interval="2000" min="-1430" max="-1990"/>
       <attack name="arrow" interval="3000" chance="100" min="-150" max="-355"/>
       <attack name="big bolt" interval="3000" chance="100" min="-1000" max="-3400"/>
-     
       <attack name="big bolt" interval="3000" chance="100" min="-800" max="-1800"/>
-
       <attack name="bolt" interval="4000" chance="100" min="-2400" max="-2600"/>
     </attacks>
     <defenses armor="100" defense="100"/>
