@@ -19,9 +19,9 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-      <attack name="sword bash" interval="10000" min="-20000" max="-25000"/>
-      <attack name="melee" interval="1" min="-100" max="-200"/>
-      <attack name="sword furie" interval="25000" min="-10000" max="-30000"/>
+      <attack name="sword bash" interval="10000" chance="100" min="-20000" max="-25000"/>
+      <attack name="melee" interval="1" min="-100" chance="100" max="-200"/>
+      <attack name="sword furie" interval="25000" chance="100" min="-10000" max="-30000"/>
     </attacks>
       <immunities>
       <immunity physical="0"/>

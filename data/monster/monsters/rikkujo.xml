@@ -20,8 +20,8 @@
     </flags>
     <attacks>
 	<attack name="melee" interval="2000" min="-1000" max="-15000"/>
-	<attack name="deadly bomb" interval="2000" min="-1000" max="-32000"/>
-	<attack name="furie" interval="2000" min="-10000" max="-20000"/>
+	<attack name="deadly bomb" interval="2000" chance="100" min="-1000" max="-32000"/>
+	<attack name="furie" interval="2000" chance="100" min="-10000" max="-20000"/>
     </attacks>
     <defenses armor="150" defense="150"/>
     <immunities>

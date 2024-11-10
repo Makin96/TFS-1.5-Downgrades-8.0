@@ -20,7 +20,7 @@
     </flags>
     <attacks>
  <attack name="melee" interval="2000" min="-1500" max="-2000"/>
-      <attack name="big bang attack" interval="2000" min="-330" max="-390"/>
+      <attack name="big bang attack" interval="2000" chance="100" min="-330" max="-390"/>
       <attack name="big bolt" interval="3000" chance="100" min="-500" max="-1000"/>
       <attack name="bolt" interval="3000" chance="100" min="-1000" max="-2400"/>
       <attack name="furie" interval="3000" chance="100" min="-400" max="-800"/>

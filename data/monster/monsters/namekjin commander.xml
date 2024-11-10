@@ -19,8 +19,8 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-	<attack name="renzoku energy dan" interval="2000" min="-1000" max="-2000"/>
-	<attack name="hell granade" interval="2000" min="-1000" max="-2000"/>
+	<attack name="renzoku energy dan" interval="2000" chance="100" min="-1000" max="-2000"/>
+	<attack name="hell granade" interval="2000" chance="100" min="-1000" max="-2000"/>
     </attacks>
     <defenses armor="150" defense="150"/>
     <immunities>

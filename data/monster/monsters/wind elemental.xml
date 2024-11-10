@@ -20,8 +20,7 @@
     </flags>
     <attacks>
  <attack name="melee" interval="2000" min="-800" max="-1200"/>
-      <attack name="sword furie" interval="2000" min="-1330" max="-3000"/>
-      
+      <attack name="sword furie" interval="2000" chance="100" min="-1330" max="-3000"/>
       <attack name="bolt" interval="3000" chance="100" min="-400" max="-1800"/>
       <attack name="big bolt" interval="3000" chance="100" min="-1000" max="-2500"/>
     </attacks>

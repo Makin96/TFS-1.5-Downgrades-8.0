@@ -20,8 +20,8 @@
     </flags>
     <attacks>
       <attack name="melee" interval="20" min="-200" max="-3000"/>
-      <attack name="evil kienzan" interval="10000" min="-10000" max="-18000"/>
-      <attack name="furie" interval="24000" min="-10000" max="-30000"/>
+      <attack name="evil kienzan" interval="10000" chance="100" min="-10000" max="-18000"/>
+      <attack name="furie" interval="24000" chance="100" min="-10000" max="-30000"/>
     </attacks>
     <defenses armor="100" defense="100"/>
     <immunities>

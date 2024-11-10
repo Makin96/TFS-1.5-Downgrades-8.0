@@ -20,10 +20,9 @@
     </flags>
     <attacks>
       <attack name="melee" interval="2000" min="-400" max="-540"/>
- <attack name="bolt" interval="2000" min="-400" max="-640"/>
-
- <attack name="arrow" interval="2000" min="-400" max="-440"/>
- <attack name="big bang attack" interval="2000" min="-1000" max="-2400"/>
+ <attack name="bolt" interval="2000" chance="100" min="-400" max="-640"/>
+ <attack name="arrow" interval="2000" chance="100" min="-400" max="-440"/>
+ <attack name="big bang attack" interval="2000" chance="100" min="-1000" max="-2400"/>
     </attacks>
     <defenses armor="10" defense="10"/>
     <immunities>

@@ -19,8 +19,8 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-	<attack name="big bang attack" interval="2000" min="-4000" max="-15000"/>
-	<attack name="auto destruction" interval="2000" min="-4000" max="-20000"/>
+	<attack name="big bang attack" interval="2000" chance="100" min="-4000" max="-15000"/>
+	<attack name="auto destruction" interval="2000" chance="100" min="-4000" max="-20000"/>
     </attacks>
     <defenses armor="150" defense="150"/>
     <immunities>
