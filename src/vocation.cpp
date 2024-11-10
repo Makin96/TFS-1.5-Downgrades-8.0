@@ -83,6 +83,8 @@ bool Vocations::loadFromXml()
 				voc.gainSoulTicks = pugi::cast<uint16_t>(attrNode.value());
 			} else if (strcasecmp(attrName, "fromvoc") == 0) {
 				voc.fromVocation = pugi::cast<uint32_t>(attrNode.value());
+			} else if (strcasecmp(attrName, "kidamage") == 0) {
+				voc.magicDamage = pugi::cast<uint32_t>(attrNode.value());
 			} else if (strcasecmp(attrName, "nopongkicktime") == 0) {
 				voc.noPongKickTime = pugi::cast<uint32_t>(attrNode.value()) * 1000;
 			} else {
