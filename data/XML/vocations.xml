@@ -10,7 +10,7 @@
 		<skill id="5" multiplier="1.5" />
 		<skill id="6" multiplier="1.1" />
 	</vocation>
-	<vocation id="1" name="Goku" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="50" gainmanaticks="3" gainmanaamount="50" manamultiplier="1.1" attackspeed="1000" soulmax="50" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" corpse="2853" kidamage="1" charge="11">
+	<vocation id="1" name="Goku" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="50" gainmanaticks="3" gainmanaamount="50" manamultiplier="1.1" attackspeed="1000" soulmax="50" gainsoulticks="120" kidamage="1">
 		<formula meleeDamage="15" distDamage="5" defense="1" armor="1" />
 		<skill id="0" multiplier="3.0"/>
 		<skill id="1" multiplier="2.0"/>

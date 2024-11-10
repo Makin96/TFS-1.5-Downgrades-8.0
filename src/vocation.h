@@ -98,10 +98,10 @@ class Vocation
 			return allowPvp;
 		}
 
-		float meleeDamageMultiplier = 1.0f;
-		float distDamageMultiplier = 1.0f;
-		float defenseMultiplier = 1.0f;
-		float armorMultiplier = 1.0f;
+		float meleeDamageMultiplier = 1;
+		float distDamageMultiplier = 1;
+		float defenseMultiplier = 1;
+		float armorMultiplier = 1;
 
 	private:
 		friend class Vocations;
