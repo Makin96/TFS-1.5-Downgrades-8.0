@@ -1032,516 +1032,558 @@
     <skill id="5" multiplier="1.1"/>
     <skill id="6" multiplier="1.1"/>
 </vocation>
-
-
-<vocation id="103" name="Bardock4" description="a saiyan" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="160" gainsoulticks="150" lostexp="3" lostmlv="3" lostskill="3" distdamage="50"  meledamage="150" kidamage="9" corpse="2822" charge="11">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="1.1"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
+<vocation id="103" name="Bardock4" description="a saiyan" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="160" gainsoulticks="150" kidamage="9">
+				<formula meleeDamage="150" distDamage="50" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="1.1"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="104" name="Bardock5" description="a saiyan" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="200" gainsoulticks="120" kidamage="10">
+				<formula meleeDamage="210" distDamage="70" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="1.1"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="105" name="Uub form one" description="a human" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="50" gainmanaticks="3" gainmanaamount="50" manamultiplier="1.1" attackspeed="1000" basespeed="220" soulmax="50" gainsoulticks="120" kidamage="1">
+				<formula meleeDamage="15" distDamage="5" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="106" name="Uub form two" description="a human" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="800" basespeed="220" soulmax="100" gainsoulticks="120" kidamage="3">
+				<formula meleeDamage="60" distDamage="20" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="107" name="Uub form three" description="a human" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="150" gainsoulticks="120" kidamage="6">
+				<formula meleeDamage="90" distDamage="50" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="108" name="Uub form four" description="a human" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="200" gainsoulticks="150" kidamage="8">
+				<formula meleeDamage="160" distDamage="70" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="109" name="Dende" description="a namekjin" gaincap="50" gainhp="220" gainmana="280" gainhpticks="6" gainhpamount="50" gainmanaticks="3" gainmanaamount="50" manamultiplier="1.1" attackspeed="1000" basespeed="220" soulmax="50" gainsoulticks="120" kidamage="1">
+				<formula meleeDamage="15" distDamage="5" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="3.0"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="110" name="Dende2" description="a namekjin" gaincap="50" gainhp="220" gainmana="280" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="700" basespeed="220" soulmax="100" gainsoulticks="120" kidamage="4">
+				<formula meleeDamage="60" distDamage="20" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="3.0"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="111" name="Dende3" description="a namekjin" gaincap="50" gainhp="220" gainmana="280" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="150" gainsoulticks="120" kidamage="8">
+				<formula meleeDamage="150" distDamage="50" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="3.0"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="112" name="Dende4" description="a namekjin" gaincap="50" gainhp="220" gainmana="280" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="200" gainsoulticks="150" kidamage="10">
+				<formula meleeDamage="210" distDamage="50" defense="1" armor="1" />
+	<skill id="0" multiplier="3.0"/>
+	<skill id="1" multiplier="3.0"/>
+	<skill id="2" multiplier="3.0"/>
+	<skill id="3" multiplier="3.0"/>
+	<skill id="4" multiplier="1.1"/>
+	<skill id="5" multiplier="1.1"/>
+	<skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="113" name="Bardock6" description="a saiyan" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="1100" basespeed="220" soulmax="100" gainsoulticks="120" kidamage="3">
+				<formula meleeDamage="60" distDamage="20" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="1.1"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="200" name="Game Master" description="a GM" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="1100" basespeed="220" soulmax="100" gainsoulticks="120" kidamage="10">
+				<formula meleeDamage="60" distDamage="20" defense="1" armor="1" />
+    <skill id="0" multiplier="1.1"/>
+    <skill id="1" multiplier="1.1"/>
+    <skill id="2" multiplier="1.1"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="1.1"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="201" name="Chibi Goku" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" kidamage="3">
+				<formula meleeDamage="60" distDamage="20" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
 </vocation>
 
-<vocation id="104" name="Bardock5" description="a saiyan" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="200" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="70"  meledamage="210" kidamage="10" corpse="2822" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="1.1"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
+<vocation id="202" name="Chibi Goku SSJ" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" kidamage="6">
+				<formula meleeDamage="120" distDamage="30" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="203" name="Chibi Goku SSJ2" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" kidamage="7">
+				<formula meleeDamage="150" distDamage="40" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="204" name="Chibi Goku SSJ3" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" kidamage="9">
+				<formula meleeDamage="180" distDamage="50" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="205" name="Goku Golden Oozaru" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="1000" basespeed="220" soulmax="170" gainsoulticks="120" kidamage="10">
+				<formula meleeDamage="230" distDamage="60" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="206" name="Super Saiyan 4 Goku" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" kidamage="12">
+				<formula meleeDamage="250" distDamage="70" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="207" name="Super Saiyan 4 Gogeta" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" kidamage="15">
+				<formula meleeDamage="300" distDamage="70" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="208" name="Gohan GT" description="a gohan" gaincap="50" gainhp="240" gainmana="260" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" kidamage="3">
+				<formula meleeDamage="60" distDamage="20" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="2.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="209" name="Gohan SSJ GT" description="a gohan" gaincap="50" gainhp="240" gainmana="260" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" kidamage="6">
+				<formula meleeDamage="120" distDamage="30" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="2.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="210" name="Mistic Gohan" description="a gohan" gaincap="50" gainhp="240" gainmana="260" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" kidamage="7">
+				<formula meleeDamage="150" distDamage="40" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="2.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="211" name="Mistic Gohan SSJ" description="a gohan" gaincap="50" gainhp="240" gainmana="260" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" kidamage="9">
+				<formula meleeDamage="180" distDamage="50" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="2.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="212" name="Gohan Golden Oozaru" description="a gohan" gaincap="50" gainhp="240" gainmana="260" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="1000" basespeed="220" soulmax="170" gainsoulticks="120" kidamage="10">
+				<formula meleeDamage="230" distDamage="60" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="2.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="213" name="Super Saiyan 4 Gohan" description="a gohan" gaincap="50" gainhp="240" gainmana="260" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" kidamage="12">
+				<formula meleeDamage="250" distDamage="70" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="2.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="214" name="Vegeta GT" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" kidamage="3">
+				<formula meleeDamage="60" distDamage="20" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="2.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="215" name="Vegeta SSJ GT" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" kidamage="6">
+				<formula meleeDamage="120" distDamage="30" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="2.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="216" name="Vegeta SSJ2 GT" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" kidamage="7">
+				<formula meleeDamage="150" distDamage="40" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="2.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="217" name="Full Vegeta SSJ2 GT" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" kidamage="9">
+				<formula meleeDamage="180" distDamage="50" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="2.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="218" name="Vegeta Golden Oozaru" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="1000" basespeed="220" soulmax="170" gainsoulticks="120" kidamage="10">
+				<formula meleeDamage="230" distDamage="60" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="2.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="219" name="Super Saiyan 4 Vegeta" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" kidamage="12">
+				<formula meleeDamage="250" distDamage="70" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="2.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="220" name="Super Saiyan 4 Gogetav" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" kidamage="15">
+				<formula meleeDamage="300" distDamage="70" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="2.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="221" name="Future Trunks GT" description="a trunks" gaincap="50" gainhp="260" gainmana="240" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" kidamage="3">
+				<formula meleeDamage="60" distDamage="20" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="1.1"/>
+    <skill id="3" multiplier="2.0"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="222" name="Future Trunks GT SSJ" description="a trunks" gaincap="50" gainhp="260" gainmana="240" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" kidamage="6">
+				<formula meleeDamage="120" distDamage="30" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="1.1"/>
+    <skill id="3" multiplier="2.0"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="223" name="Future Trunks GT SSJ2" description="a trunks" gaincap="50" gainhp="260" gainmana="240" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" kidamage="7">
+				<formula meleeDamage="150" distDamage="40" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="1.1"/>
+    <skill id="3" multiplier="2.0"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="224" name="Future Trunks GT FSSJ2" description="a trunks" gaincap="50" gainhp="260" gainmana="240" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" kidamage="9">
+				<formula meleeDamage="180" distDamage="50" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="1.1"/>
+    <skill id="3" multiplier="2.0"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="225" name="Future Trunks Golden Oozaru" description="a trunks" gaincap="50" gainhp="260" gainmana="240" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="1000" basespeed="220" soulmax="170" gainsoulticks="120" kidamage="10">
+				<formula meleeDamage="230" distDamage="60" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="1.1"/>
+    <skill id="3" multiplier="2.0"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="226" name="Super Saiyan 4 Trunks" description="a trunks" gaincap="50" gainhp="260" gainmana="240" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" kidamage="12">
+				<formula meleeDamage="250" distDamage="70" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="1.1"/>
+    <skill id="3" multiplier="2.0"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="227" name="Goten GT" description="a goten" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" kidamage="3">
+				<formula meleeDamage="60" distDamage="20" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="228" name="Goten SSJ GT" description="a goten" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" kidamage="6">
+				<formula meleeDamage="120" distDamage="30" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="229" name="Gotenks GT" description="a goten" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" kidamage="7">
+				<formula meleeDamage="150" distDamage="40" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="230" name="Gotenks SSJ GT" description="a goten" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" kidamage="9">
+				<formula meleeDamage="180" distDamage="50" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="231" name="Gotenks SSJ3 GT" description="a goten" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" kidamage="12">
+				<formula meleeDamage="250" distDamage="70" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="2.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="232" name="Trunks GT" description="a trunks" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" kidamage="3">
+				<formula meleeDamage="60" distDamage="20" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="2.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="233" name="Trunks SSJ GT" description="a trunks" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" kidamage="6">
+				<formula meleeDamage="120" distDamage="30" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="2.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="234" name="tGotenks GT" description="a trunks" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" kidamage="7">
+				<formula meleeDamage="150" distDamage="40" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="2.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="235" name="tGotenks SSJ GT" description="a trunks" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" kidamage="9">
+				<formula meleeDamage="180" distDamage="50" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="2.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="236" name="tGotenks SSJ3 GT" description="a trunks" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" kidamage="12">
+				<formula meleeDamage="250" distDamage="70" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="2.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="237" name="Namekjin GT" description="a namekjin" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" kidamage="3">
+				<formula meleeDamage="60" distDamage="25" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="2.0"/>
+    <skill id="4" multiplier="1.1"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="238" name="Super Namekjin GT" description="a namekjin" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" kidamage="6">
+				<formula meleeDamage="120" distDamage="50" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="2.0"/>
+    <skill id="4" multiplier="1.1"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="239" name="Ultra Namekjin GT" description="a namekjin" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" kidamage="7">
+				<formula meleeDamage="150" distDamage="70" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="2.0"/>
+    <skill id="4" multiplier="1.1"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="240" name="Hiper Namekjin GT" description="a namekjin" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" kidamage="9">
+				<formula meleeDamage="180" distDamage="100" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="2.0"/>
+    <skill id="4" multiplier="1.1"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="241" name="Ultimate Namekjin GT" description="a namekjin" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" kidamage="12">
+				<formula meleeDamage="250" distDamage="150" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="3.0"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="2.0"/>
+    <skill id="4" multiplier="1.1"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="242" name="Tsuful GT" description="a tsuful" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" kidamage="3">
+				<formula meleeDamage="60" distDamage="25" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="1.1"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
+</vocation>
+<vocation id="243" name="Tsuful GT vegeta" description="a tsuful" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" kidamage="6">
+				<formula meleeDamage="120" distDamage="40" defense="1" armor="1" />
+    <skill id="0" multiplier="3.0"/>
+    <skill id="1" multiplier="1.1"/>
+    <skill id="2" multiplier="3.0"/>
+    <skill id="3" multiplier="1.1"/>
+    <skill id="4" multiplier="3.0"/>
+    <skill id="5" multiplier="1.1"/>
+    <skill id="6" multiplier="1.1"/>
 </vocation>
 
-<vocation id="105" name="Uub form one" description="a human" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="50" gainmanaticks="3" gainmanaamount="50" manamultiplier="1.1" attackspeed="1000" basespeed="220" soulmax="50" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="5"  meledamage="15" kidamage="1" corpse="2935" charge="11">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-
-<vocation id="106" name="Uub form two" description="a human" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="800" basespeed="220" soulmax="100" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="20"  meledamage="60" kidamage="3" corpse="2935" charge="18">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-
-<vocation id="107" name="Uub form three" description="a human" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="150" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="50"  meledamage="90" kidamage="6" corpse="2935" charge="18">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-
-<vocation id="108" name="Uub form four" description="a human" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="200" gainsoulticks="150" lostexp="3" lostmlv="3" lostskill="3" distdamage="70"  meledamage="160" kidamage="8" corpse="2935" charge="18">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-
-<vocation id="109" name="Dende" description="a namekjin" gaincap="50" gainhp="220" gainmana="280" gainhpticks="6" gainhpamount="50" gainmanaticks="3" gainmanaamount="50" manamultiplier="1.1" attackspeed="1000" basespeed="220" soulmax="50" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="5"  meledamage="15" kidamage="1" corpse="3046" charge="23">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="3.0"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-
-<vocation id="110" name="Dende2" description="a namekjin" gaincap="50" gainhp="220" gainmana="280" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="700" basespeed="220" soulmax="100" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="20"  meledamage="60" kidamage="4" corpse="3046" charge="23">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="3.0"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-
-<vocation id="111" name="Dende3" description="a namekjin" gaincap="50" gainhp="220" gainmana="280" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="150" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="50"  meledamage="150" kidamage="8" corpse="3046" charge="23">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="3.0"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-
-<vocation id="112" name="Dende4" description="a namekjin" gaincap="50" gainhp="220" gainmana="280" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="200" gainsoulticks="150" lostexp="3" lostmlv="3" lostskill="3" distdamage="50"  meledamage="210" kidamage="10" corpse="3046" charge="23">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="3.0"/>
-<skill id="4" multiplier="1.1"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="113" name="Bardock6" description="a saiyan" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="1100" basespeed="220" soulmax="100" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="20"  meledamage="60" kidamage="3" corpse="2902" charge="182">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="1.1"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="200" name="Game Master" description="a GM" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="1100" basespeed="220" soulmax="100" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="20"  meledamage="60" kidamage="10" charge="11">
-<skill id="0" multiplier="1.1"/>
-<skill id="1" multiplier="1.1"/>
-<skill id="2" multiplier="1.1"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="1.1"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-
-<vocation id="201" name="Chibi Goku" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="20"  meledamage="60" kidamage="3" corpse="6031" charge="11">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="202" name="Chibi Goku SSJ" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="30"  meledamage="120" kidamage="6" corpse="6031" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="203" name="Chibi Goku SSJ2" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="40"  meledamage="150" kidamage="7" corpse="6031" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="204" name="Chibi Goku SSJ3" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="50"  meledamage="180" kidamage="9" corpse="6031" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="205" name="Goku Golden Oozaru" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="1000" basespeed="220" soulmax="170" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="60"  meledamage="230" kidamage="10" corpse="6031" charge="182">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="206" name="Super Saiyan 4 Goku" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="70"  meledamage="250" kidamage="12" corpse="6031" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="207" name="Super Saiyan 4 Gogeta" description="a goku" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="70"  meledamage="300" kidamage="15" corpse="6031" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="208" name="Gohan GT" description="a gohan" gaincap="50" gainhp="240" gainmana="260" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="20"  meledamage="60" kidamage="3" corpse="6056" charge="11">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="2.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="209" name="Gohan SSJ GT" description="a gohan" gaincap="50" gainhp="240" gainmana="260" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="30"  meledamage="120" kidamage="6" corpse="6056" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="2.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="210" name="Mistic Gohan" description="a gohan" gaincap="50" gainhp="240" gainmana="260" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="40"  meledamage="150" kidamage="7" corpse="2886" charge="11">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="2.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="211" name="Mistic Gohan SSJ" description="a gohan" gaincap="50" gainhp="240" gainmana="260" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="50"  meledamage="180" kidamage="9" corpse="2886" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="2.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="212" name="Gohan Golden Oozaru" description="a gohan" gaincap="50" gainhp="240" gainmana="260" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="1000" basespeed="220" soulmax="170" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="60"  meledamage="230" kidamage="10" corpse="2886" charge="182">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="2.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="213" name="Super Saiyan 4 Gohan" description="a gohan" gaincap="50" gainhp="240" gainmana="260" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="70"  meledamage="250" kidamage="12" corpse="2886" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="2.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-
-<vocation id="214" name="Vegeta GT" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="20"  meledamage="60" kidamage="3" corpse="6063" charge="11">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="2.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="215" name="Vegeta SSJ GT" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="30"  meledamage="120" kidamage="6" corpse="6063" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="2.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="216" name="Vegeta SSJ2 GT" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="40"  meledamage="150" kidamage="7" corpse="6063" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="2.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="217" name="Full Vegeta SSJ2 GT" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="50"  meledamage="180" kidamage="9" corpse="6063" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="2.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="218" name="Vegeta Golden Oozaru" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="1000" basespeed="220" soulmax="170" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="60"  meledamage="230" kidamage="10" corpse="6063" charge="182">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="2.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="219" name="Super Saiyan 4 Vegeta" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="70"  meledamage="250" kidamage="12" corpse="6063" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="2.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="220" name="Super Saiyan 4 Gogetav" description="a vegeta" gaincap="50" gainhp="280" gainmana="220" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="70"  meledamage="300" kidamage="15" corpse="6063" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="2.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-
-<vocation id="221" name="Future Trunks GT" description="a trunks" gaincap="50" gainhp="260" gainmana="240" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="20"  meledamage="60" kidamage="3" corpse="2989" charge="11">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="1.1"/>
-<skill id="3" multiplier="2.0"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="222" name="Future Trunks GT SSJ" description="a trunks" gaincap="50" gainhp="260" gainmana="240" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="30"  meledamage="120" kidamage="6" corpse="2989" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="1.1"/>
-<skill id="3" multiplier="2.0"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="223" name="Future Trunks GT SSJ2" description="a trunks" gaincap="50" gainhp="260" gainmana="240" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="40"  meledamage="150" kidamage="7" corpse="2989" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="1.1"/>
-<skill id="3" multiplier="2.0"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="224" name="Future Trunks GT FSSJ2" description="a trunks" gaincap="50" gainhp="260" gainmana="240" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="50"  meledamage="180" kidamage="9" corpse="2989" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="1.1"/>
-<skill id="3" multiplier="2.0"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="225" name="Future Trunks Golden Oozaru" description="a trunks" gaincap="50" gainhp="260" gainmana="240" gainhpticks="6" gainhpamount="300" gainmanaticks="3" gainmanaamount="300" manamultiplier="1.1" attackspeed="1000" basespeed="220" soulmax="170" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="60"  meledamage="230" kidamage="10" corpse="2989" charge="182">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="1.1"/>
-<skill id="3" multiplier="2.0"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="226" name="Super Saiyan 4 Trunks" description="a trunks" gaincap="50" gainhp="260" gainmana="240" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="70"  meledamage="250" kidamage="12" corpse="2989" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="1.1"/>
-<skill id="3" multiplier="2.0"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-
-<vocation id="227" name="Goten GT" description="a goten" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="20"  meledamage="60" kidamage="3" corpse="6050" charge="11">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="228" name="Goten SSJ GT" description="a goten" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="30"  meledamage="120" kidamage="6" corpse="6050" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="229" name="Gotenks GT" description="a goten" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="40"  meledamage="150" kidamage="7" corpse="6050" charge="11">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="230" name="Gotenks SSJ GT" description="a goten" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="50"  meledamage="180" kidamage="9" corpse="6050" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="231" name="Gotenks SSJ3 GT" description="a goten" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="70"  meledamage="250" kidamage="12" corpse="6050" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="2.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="232" name="Trunks GT" description="a trunks" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="20"  meledamage="60" kidamage="3" corpse="6062" charge="11">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="2.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="233" name="Trunks SSJ GT" description="a trunks" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="30"  meledamage="120" kidamage="6" corpse="6062" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="2.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="234" name="tGotenks GT" description="a trunks" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="40"  meledamage="150" kidamage="7" corpse="6062" charge="11">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="2.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="235" name="tGotenks SSJ GT" description="a trunks" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="50"  meledamage="180" kidamage="9" corpse="6062" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="2.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="236" name="tGotenks SSJ3 GT" description="a trunks" gaincap="50" gainhp="270" gainmana="230" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="70"  meledamage="250" kidamage="12" corpse="6062" charge="17">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="2.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="237" name="Namekjin GT" description="a namekjin" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="25"  meledamage="60" kidamage="3" corpse="3046" charge="23">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="2.0"/>
-<skill id="4" multiplier="1.1"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="238" name="Super Namekjin GT" description="a namekjin" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="50"  meledamage="120" kidamage="6" corpse="3046" charge="23">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="2.0"/>
-<skill id="4" multiplier="1.1"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="239" name="Ultra Namekjin GT" description="a namekjin" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="70"  meledamage="150" kidamage="7" corpse="3046" charge="23">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="2.0"/>
-<skill id="4" multiplier="1.1"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="240" name="Hiper Namekjin GT" description="a namekjin" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="250" gainmanaticks="3" gainmanaamount="250" manamultiplier="1.1" attackspeed="300" basespeed="220" soulmax="150" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="100"  meledamage="180" kidamage="9" corpse="3046" charge="23">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="2.0"/>
-<skill id="4" multiplier="1.1"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="241" name="Ultimate Namekjin GT" description="a namekjin" gaincap="50" gainhp="250" gainmana="250" gainhpticks="6" gainhpamount="400" gainmanaticks="3" gainmanaamount="400" manamultiplier="1.1" attackspeed="200" basespeed="220" soulmax="200" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="150"  meledamage="250" kidamage="12" corpse="3046" charge="23">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="3.0"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="2.0"/>
-<skill id="4" multiplier="1.1"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="242" name="Tsuful GT" description="a tsuful" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="100" gainmanaticks="3" gainmanaamount="100" manamultiplier="1.1" attackspeed="600" basespeed="220" soulmax="100" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="25"  meledamage="60" kidamage="3" corpse="4265" charge="18">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="1.1"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
-<vocation id="243" name="Tsuful GT vegeta" description="a tsuful" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="150" gainmanaticks="3" gainmanaamount="150" manamultiplier="1.1" attackspeed="500" basespeed="220" soulmax="110" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="40"  meledamage="120" kidamage="6" corpse="6063" charge="18">
-<skill id="0" multiplier="3.0"/>
-<skill id="1" multiplier="1.1"/>
-<skill id="2" multiplier="3.0"/>
-<skill id="3" multiplier="1.1"/>
-<skill id="4" multiplier="3.0"/>
-<skill id="5" multiplier="1.1"/>
-<skill id="6" multiplier="1.1"/>
-</vocation>
 <vocation id="244" name="Tsuful GT Vegeta SSJ" description="a tsuful" gaincap="50" gainhp="230" gainmana="270" gainhpticks="6" gainhpamount="200" gainmanaticks="3" gainmanaamount="200" manamultiplier="1.1" attackspeed="400" basespeed="220" soulmax="120" gainsoulticks="120" lostexp="3" lostmlv="3" lostskill="3" distdamage="50"  meledamage="160" kidamage="9" corpse="6063" charge="18">
 <skill id="0" multiplier="3.0"/>
 <skill id="1" multiplier="1.1"/>
