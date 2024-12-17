@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/opentibia/!svn/ver/2041/otserv/trunk/data/actions/scripts
+END
+shovel.lua
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/shovel.lua
+END
+trans_dec.lua
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/trans_dec.lua
+END
+door_open1.lua
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/door_open1.lua
+END
+rope.lua
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/rope.lua
+END
+door_open2.lua
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/door_open2.lua
+END
+door_close1.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/door_close1.lua
+END
+door_close2.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/door_close2.lua
+END
+blueberry_bush.lua
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/opentibia/!svn/ver/1618/otserv/trunk/data/actions/scripts/blueberry_bush.lua
+END
+door_close1e.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/door_close1e.lua
+END
+door_close2e.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/door_close2e.lua
+END
+trans_inc.lua
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/trans_inc.lua
+END
+music.lua
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/opentibia/!svn/ver/1620/otserv/trunk/data/actions/scripts/music.lua
+END
+fluids.lua
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/opentibia/!svn/ver/1622/otserv/trunk/data/actions/scripts/fluids.lua
+END
+door_close1n.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/door_close1n.lua
+END
+fishing.lua
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/fishing.lua
+END
+food.lua
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/opentibia/!svn/ver/1620/otserv/trunk/data/actions/scripts/food.lua
+END
+key.lua
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/key.lua
+END
+door_close2n.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/opentibia/!svn/ver/1684/otserv/trunk/data/actions/scripts/door_close2n.lua
+END
+decayto.lua
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/opentibia/!svn/ver/1618/otserv/trunk/data/actions/scripts/decayto.lua
+END
+teleport.lua
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/opentibia/!svn/ver/1620/otserv/trunk/data/actions/scripts/teleport.lua
+END

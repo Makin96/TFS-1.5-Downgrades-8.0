@@ -15573,7 +15573,7 @@
 	<item id="5913" article="a" name="brown piece of cloth" plural="brown pieces of cloth">
 		<attribute key="weight" value="500"/>
 	</item>
-	<item id="5914" article="a" name="majin power" plural="Majin">
+	<item id="5914" article="a" name="majin power of 1.000.000 experiance" plural="Majin">
 		<attribute key="weight" value="500"/>
 	</item>
 	<item id="5915" article="a" name="large throne">
@@ -17562,7 +17562,7 @@
 		<attribute key="duration" value="600"/>
 	</item>
 	<item id="6523" article="a" name="gingerbread recipe">
-		<attribute key="decoration" value="Use it to learn how to make Gingerbreadman in the christmas bakery."/>
+		<attribute key="description" value="Use it to learn how to make Gingerbreadman in the christmas bakery."/>
 		<attribute key="weight" value="200"/>
 	</item>
 	<item id="6524" article="a" name="skeleton decoration">

@@ -56,4 +56,83 @@
 	<action fromid="1846" toid="1847" script="other/wallmirror.lua" />
 	<action fromid="1849" toid="1850" script="other/wallmirror.lua" />
 	<action itemid="486" script="other/snowheap.lua" />
+	
+	<!--WODBO-->
+	
+	<!--Exp scroll-->
+	<action itemid="5878" script="wodbo/expscroll/zwoj1.lua" />
+	<action itemid="5948" script="wodbo/expscroll/zwoj2.lua" />
+	<action itemid="5880" script="wodbo/expscroll/zwoj3.lua" />
+	<action itemid="5920" script="wodbo/expscroll/zwoj4.lua" />
+	<action itemid="5894" script="wodbo/expscroll/zwoj5.lua" />
+	<action itemid="5882" script="wodbo/expscroll/zwoj6.lua" />
+	<action itemid="5914" script="wodbo/expscroll/majin.lua" />
+	<action itemid="7431" script="wodbo/expscroll/sscroll.lua" />
+	<action itemid="5888" script="wodbo/expscroll/xsrol.lua" />
+	<!-- Qeusty-->
+	<action uniqueid="7140" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7141" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7142" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7143" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7144" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7145" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7146" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7147" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7148" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7149" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7150" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7151" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7152" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7153" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7154" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7155" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7160" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7162" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7163" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7164" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7165" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7166" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7167" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7168" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7169" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7170" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7171" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7172" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7173" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7101" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7102" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7103" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7104" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7105" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7106" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7107" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7108" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7109" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7110" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7111" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7112" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7113" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7114" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7115" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7116" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7117" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7118" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7119" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7120" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7121" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7122" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7123" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7124" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7125" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7126" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7127" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7128" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7129" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7130" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7131" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7132" script="wodbo/questy/questy.lua" />
+	<action uniqueid="7133" script="wodbo/questy/questy.lua" />
+	
+	<action uniqueid="7012" script="wodbo/questy/annilever4.lua" />
+	
 </actions>
