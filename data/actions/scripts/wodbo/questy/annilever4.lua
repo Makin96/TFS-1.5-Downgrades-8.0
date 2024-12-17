@@ -1,48 +1,45 @@
-local playerpos = {
-	player1pos = {x=161,y=298,z=8}
+local player1 = {x=161, y=295, z=8, stackpos=253}
 
-	}
-	
-local newpos = {
-	new1pos = {x=208,y=305,z=9}
+local position1 = {x=208, y=305, z=9}
 
-	}
-	
-	
-	
-	
-	
-local t = {
-        storage = 2001,
-	ids = {5,6,7},
-	message = "Put your message here.",
-	entrada = { -- player pos
-		{x = 186, y = 57, z = 7},
-		{x = 185, y = 57, z = 7},
-                {x = 186, y = 57, z = 7}
-	},
-	saida = { -- player to pos
-		{x = 191, y = 55, z = 6},
-		{x = 190, y = 55, z = 6},
-		{x = 189, y = 55, z = 6}
-	}
-}
-function onUse(cid, item, fromPosition, itemEx, toPosition)
-	local check = {}
-	for _, k in ipairs(t.entrada) do
-		local x = getTopCreature(k).uid
-		if(x == 0 or not isPlayer(x) or not isInArray(t.ids, getPlayerStorageValue(x, t.storage))) then
-			doPlayerSendCancel(cid, 'dont have players or no have storage.')
-			return true
+local uniqueidoflever = 7012
+
+function onUse(cid, item, frompos, item2, topos)
+
+   	if item.uid == uniqueidoflever and item.itemid == 1945 then
+		player1pos = player1		
+		player1 = getThingfromPos(player1pos)
+
+
+		if player1.itemid > 0 then
+			queststatus1 = getPlayerStorageValue(player1.uid,uniqueidoflever)
+
+			if queststatus1 == -1 then
+				nplayer1pos = position1
+
+				doSendMagicEffect(player1pos,2)
+
+				doTeleportThing(player1.uid,nplayer1pos)
+
+				doSendMagicEffect(nplayer1pos,10)
+
+				doTransformItem(item.uid,item.itemid+1)
+			else
+				doPlayerSendCancel(cid,"You has already done this quest.")
+			end
+		else
+			doPlayerSendCancel(cid,"You need one player for this quest.")
 		end
-		table.insert(check, x)
+
+	elseif item.uid == uniqueidoflever and item.itemid == 1946 then
+		if getPlayerAccess(cid) > 0 then
+			doTransformItem(item.uid,item.itemid-1)
+		else
+			doPlayerSendCancel(cid,"Sorry, not possible.")
+		end
+	else
+		return 0
 	end
-	for i, tid in ipairs(check) do
-		doSendMagicEffect(t.entrada[i], CONST_ME_POFF)
-		doTeleportThing(tid, t.saida[i], false)
-		doSendMagicEffect(t.saida[i], CONST_ME_ENERGYAREA)
-                doPlayerSendTextMessage(tid, 19, t.message)
-	end
-	doTransformItem(item.uid, item.itemid == 1945 and 1946 or 1945)
-	return true
+
+	return 1
 end
