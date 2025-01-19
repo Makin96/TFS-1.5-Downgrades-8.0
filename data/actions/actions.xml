@@ -15,10 +15,38 @@
 	<action itemid="2553" script="tools/pick.lua" />
 
 	<!-- Food -->
+	<action itemid="2328" script="other/food.lua" />
 	<action itemid="2362" script="other/food.lua" />
-	<action fromid="2666" toid="2691" script="other/food.lua" />
-	<action fromid="2695" toid="2696" script="other/food.lua" />
-	<action fromid="2787" toid="2796" script="other/food.lua" />
+	<action itemid="2363" script="other/food.lua" />
+	<action itemid="2666" script="other/food.lua" />
+	<action itemid="2667" script="other/food.lua" />
+	<action itemid="2668" script="other/food.lua" />
+	<action itemid="2669" script="other/food.lua" />
+	<action itemid="2670" script="other/food.lua" />
+	<action itemid="2671" script="other/food.lua" />
+	<action itemid="2672" script="other/food.lua" />
+	<action itemid="2674" script="other/food.lua" />
+	<action itemid="2675" script="other/food.lua" />
+	<action itemid="2676" script="other/food.lua" />
+	<action itemid="2677" script="other/food.lua" />
+	<action itemid="2678" script="other/food.lua" />
+	<action itemid="2681" script="other/food.lua" />
+	<action itemid="2682" script="other/food.lua" />
+	<action itemid="2683" script="other/food.lua" />
+	<action itemid="2685" script="other/food.lua" />
+	<action itemid="2687" script="other/food.lua" />
+	<action itemid="2690" script="other/food.lua" />
+	<action itemid="2691" script="other/food.lua" />
+	<action itemid="2695" script="other/food.lua" />
+	<action itemid="2696" script="other/food.lua" />
+	<action itemid="2787" script="other/food.lua" />
+	<action itemid="2788" script="other/food.lua" />
+	<action itemid="2789" script="other/food.lua" />
+	<action itemid="2790" script="other/food.lua" />
+	<action itemid="2791" script="other/food.lua" />
+	<action itemid="2792" script="other/food.lua" />
+	<action itemid="2793" script="other/food.lua" />
+	<action itemid="2794" script="other/food.lua" />
 
 	<!-- Other -->
 	<action itemid="2114" script="other/piggybank.lua" />
@@ -133,6 +161,46 @@
 	<action uniqueid="7132" script="wodbo/questy/questy.lua" />
 	<action uniqueid="7133" script="wodbo/questy/questy.lua" />
 	
+	<!---Anilevel30--->
 	<action uniqueid="7012" script="wodbo/questy/annilever4.lua" />
+	<action uniqueid="5025" script="wodbo/questy/annichestfour.lua" />
+	<action uniqueid="5026" script="wodbo/questy/annichestfour.lua" />
+	<action uniqueid="5027" script="wodbo/questy/annichestfour.lua" />
+	<action uniqueid="5028" script="wodbo/questy/annichestfour.lua" />
+		
+	<!---Anilevel50--->
+	<action uniqueid="7010" script="wodbo/questy/annilever2.lua" />
+	<action uniqueid="5010" script="wodbo/questy/annichesttwo.lua" />
+	<action uniqueid="5011" script="wodbo/questy/annichesttwo.lua" />
+	<action uniqueid="5012" script="wodbo/questy/annichesttwo.lua" />
+	<action uniqueid="5013" script="wodbo/questy/annichesttwo.lua" />
+	
+	<!---Anilevel100--->
+	<action uniqueid="7000" script="wodbo/questy/annilever.lua" />
+	<action uniqueid="5006" script="wodbo/questy/annichest.lua" />
+	<action uniqueid="5007" script="wodbo/questy/annichest.lua" />
+	<action uniqueid="5008" script="wodbo/questy/annichest.lua" />
+	<action uniqueid="5009" script="wodbo/questy/annichest.lua" />
+		
+	<!---Anilevel150--->
+	<action uniqueid="7011" script="wodbo/questy/annilever3.lua" />
+	<action uniqueid="5020" script="wodbo/questy/annichestthree.lua" />
+	<action uniqueid="5021" script="wodbo/questy/annichestthree.lua" />
+	<action uniqueid="5022" script="wodbo/questy/annichestthree.lua" />
+	<action uniqueid="5023" script="wodbo/questy/annichestthree.lua" />
+	
+	<!---Use Items--->
+	<action itemid="2673" script="wodbo/itemuse/senzu.lua" />
+	<action itemid="2795" script="wodbo/itemuse/senzul.lua" />
+	<action itemid="2796" script="wodbo/itemuse/senzur.lua" />
+	
+	<!---ADD Skills--->
+	<action itemid="2263" script="wodbo/itemuse/blasting skill.lua" />
+
+	
+	
+	
+	
+	
 	
 </actions>

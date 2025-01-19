@@ -2,17 +2,17 @@
 
 function onUse(cid, item, frompos, item2, topos)
 
-   	if item.uid == 7012 and item.itemid == 1945 then
-		player1pos = {x=161, y=298, z=8, stackpos=253}
+   	if item.uid == 7011 and item.itemid == 1945 then
+		player1pos = {x=151, y=311, z=8, stackpos=253}
 		player1 = getThingfromPos(player1pos)
 
-		player2pos = {x=161, y=297, z=8, stackpos=253}
+		player2pos = {x=152, y=311, z=8, stackpos=253}
 		player2 = getThingfromPos(player2pos)
 
-		player3pos = {x=161, y=296, z=8, stackpos=253}
+		player3pos = {x=153, y=311, z=8, stackpos=253}
 		player3 = getThingfromPos(player3pos)
 
-		player4pos = {x=161, y=295, z=8, stackpos=253}
+		player4pos = {x=154, y=311, z=8, stackpos=253}
 		player4 = getThingfromPos(player4pos)
 
 
@@ -23,25 +23,25 @@ function onUse(cid, item, frompos, item2, topos)
 			queststatus4 = getPlayerStorageValue(player4.uid,7011)
 
 			if queststatus1 == -1 and queststatus2 == -1 and queststatus3 == -1 and queststatus4 == -1 then
-				nplayer1pos = {x=208, y=305, z=9}
-				nplayer2pos = {x=208, y=304, z=9}
-				nplayer3pos = {x=208, y=303, z=9}
-				nplayer4pos = {x=208, y=302, z=9}
+				nplayer1pos = {x=153, y=319, z=9}
+				nplayer2pos = {x=154, y=319, z=9}
+				nplayer3pos = {x=155, y=319, z=9}
+				nplayer4pos = {x=156, y=319, z=9}
 
-				doSendMagicEffect(player1pos,2)
-				doSendMagicEffect(player2pos,2)
-				doSendMagicEffect(player3pos,2)
-				doSendMagicEffect(player4pos,2)
+				doSendMagicEffect(player1pos,3)
+				doSendMagicEffect(player2pos,3)
+				doSendMagicEffect(player3pos,3)
+				doSendMagicEffect(player4pos,3)
 
 				doTeleportThing(player1.uid,nplayer1pos)
 				doTeleportThing(player2.uid,nplayer2pos)
 				doTeleportThing(player3.uid,nplayer3pos)
 				doTeleportThing(player4.uid,nplayer4pos)
 
-				doSendMagicEffect(nplayer1pos,10)
-				doSendMagicEffect(nplayer2pos,10)
-				doSendMagicEffect(nplayer3pos,10)
-				doSendMagicEffect(nplayer4pos,10)
+				doSendMagicEffect(nplayer1pos,11)
+				doSendMagicEffect(nplayer2pos,11)
+				doSendMagicEffect(nplayer3pos,11)
+				doSendMagicEffect(nplayer4pos,11)
 
 				doTransformItem(item.uid,item.itemid+1)
 			else
@@ -51,7 +51,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doPlayerSendCancel(cid,"You need four players for this quest.")
 		end
 
-	elseif item.uid ==7012 and item.itemid == 1946 then
+	elseif item.uid ==7011 and item.itemid == 1946 then
 		if getPlayerAccess(cid) > 0 then
 			doTransformItem(item.uid,item.itemid-1)
 		else

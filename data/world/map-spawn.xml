@@ -7952,6 +7952,33 @@
 		<npc name="Talon Trader" x="-1" y="-4" z="9" spawntime="60" />
 		<npc name="Gem Trader" x="-1" y="1" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="208" centery="303" centerz="9" radius="5">
+		<monster name="Shadow Saibamen" x="0" y="-3" z="9" spawntime="60" />
+		<monster name="Saibamen Boss" x="0" y="-2" z="9" spawntime="60" />
+		<monster name="Saibamen Boss" x="3" y="-1" z="9" spawntime="60" />
+		<monster name="Saibamen" x="-3" y="0" z="9" spawntime="60" />
+		<monster name="Saibamen Boss" x="3" y="1" z="9" spawntime="60" />
+		<monster name="Saibamen" x="-3" y="2" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="150" centery="305" centerz="9" radius="5">
+		<monster name="Destroyer" x="1" y="-2" z="9" spawntime="60" />
+		<monster name="Destroyer" x="3" y="-2" z="9" spawntime="60" />
+		<monster name="Android" x="-2" y="-1" z="9" spawntime="60" />
+		<monster name="Android Warrior" x="-2" y="0" z="9" spawntime="60" />
+		<monster name="Destroyer" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Destroyer" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Android" x="-2" y="1" z="9" spawntime="60" />
+		<monster name="Destroyer" x="2" y="2" z="9" spawntime="60" />
+		<monster name="Destroyer" x="4" y="2" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="173" centery="305" centerz="9" radius="5">
+		<monster name="Ozaru" x="-4" y="-2" z="9" spawntime="60" />
+		<monster name="Ozaru" x="-2" y="-2" z="9" spawntime="60" />
+		<monster name="Ozaru Champion" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Ozaru Warrior" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Ozaru" x="-3" y="2" z="9" spawntime="60" />
+		<monster name="Ozaru" x="-1" y="2" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="544" centery="307" centerz="9" radius="5">
 		<npc name="Weapons Trader" x="0" y="-2" z="9" spawntime="60" />
 		<npc name="Swords Trader" x="0" y="3" z="9" spawntime="60" />
@@ -7965,6 +7992,17 @@
 	</spawn>
 	<spawn centerx="541" centery="315" centerz="9" radius="1">
 		<npc name="Fisher" x="-1" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="151" centery="318" centerz="9" radius="5">
+		<monster name="Fat Janemba" x="2" y="-1" z="9" spawntime="60" />
+		<monster name="Fat Janemba" x="4" y="-1" z="9" spawntime="60" />
+		<monster name="Fat Janemba" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Fat Janemba" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Fat Janemba" x="0" y="1" z="9" spawntime="60" />
+		<monster name="Fat Janemba" x="1" y="1" z="9" spawntime="60" />
+		<monster name="Fat Janemba" x="-1" y="2" z="9" spawntime="60" />
+		<monster name="Fat Janemba" x="3" y="3" z="9" spawntime="60" />
+		<monster name="Fat Janemba" x="5" y="3" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="54" centery="329" centerz="9" radius="5">
 		<monster name="Terminator" x="4" y="-1" z="9" spawntime="60" />

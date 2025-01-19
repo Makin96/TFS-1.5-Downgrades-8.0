@@ -7,7 +7,6 @@ local foods = {
 	[2670] = {4, "Gulp."}, -- shrimp
 	[2671] = {30, "Chomp."}, -- ham
 	[2672] = {60, "Chomp."}, -- dragon ham
-	[2673] = {5, "Yum."}, -- pear
 	[2674] = {6, "Yum."}, -- red apple
 	[2675] = {13, "Yum."}, -- orange
 	[2676] = {8, "Yum."}, -- banana
@@ -36,8 +35,6 @@ local foods = {
 	[2792] = {6, "Munch."}, -- dark mushroom
 	[2793] = {12, "Munch."}, -- some mushrooms
 	[2794] = {3, "Munch."}, -- some mushrooms
-	[2795] = {36, "Munch."}, -- fire mushroom
-	[2796] = {5, "Munch."}, -- green mushroom
 }
 
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)

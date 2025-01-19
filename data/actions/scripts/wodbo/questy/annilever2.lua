@@ -28,20 +28,20 @@ function onUse(cid, item, frompos, item2, topos)
 				nplayer3pos = {x=153, y=305, z=9}
 				nplayer4pos = {x=154, y=305, z=9}
 
-				doSendMagicEffect(player1pos,2)
-				doSendMagicEffect(player2pos,2)
-				doSendMagicEffect(player3pos,2)
-				doSendMagicEffect(player4pos,2)
+				doSendMagicEffect(player1pos,3)
+				doSendMagicEffect(player2pos,3)
+				doSendMagicEffect(player3pos,3)
+				doSendMagicEffect(player4pos,3)
 
 				doTeleportThing(player1.uid,nplayer1pos)
 				doTeleportThing(player2.uid,nplayer2pos)
 				doTeleportThing(player3.uid,nplayer3pos)
 				doTeleportThing(player4.uid,nplayer4pos)
 
-				doSendMagicEffect(nplayer1pos,10)
-				doSendMagicEffect(nplayer2pos,10)
-				doSendMagicEffect(nplayer3pos,10)
-				doSendMagicEffect(nplayer4pos,10)
+				doSendMagicEffect(nplayer1pos,11)
+				doSendMagicEffect(nplayer2pos,11)
+				doSendMagicEffect(nplayer3pos,11)
+				doSendMagicEffect(nplayer4pos,11)
 
 				doTransformItem(item.uid,item.itemid+1)
 			else

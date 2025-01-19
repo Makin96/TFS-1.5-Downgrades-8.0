@@ -1,37 +1,57 @@
-local player1 = {x=161, y=295, z=8, stackpos=253}
 
-local position1 = {x=208, y=305, z=9}
-
-local uniqueidoflever = 7012
 
 function onUse(cid, item, frompos, item2, topos)
 
-   	if item.uid == uniqueidoflever and item.itemid == 1945 then
-		player1pos = player1		
+   	if item.uid == 7012 and item.itemid == 1945 then
+		player1pos = {x=161, y=298, z=8, stackpos=253}
 		player1 = getThingfromPos(player1pos)
 
+		player2pos = {x=161, y=297, z=8, stackpos=253}
+		player2 = getThingfromPos(player2pos)
 
-		if player1.itemid > 0 then
-			queststatus1 = getPlayerStorageValue(player1.uid,uniqueidoflever)
+		player3pos = {x=161, y=296, z=8, stackpos=253}
+		player3 = getThingfromPos(player3pos)
 
-			if queststatus1 == -1 then
-				nplayer1pos = position1
+		player4pos = {x=161, y=295, z=8, stackpos=253}
+		player4 = getThingfromPos(player4pos)
 
-				doSendMagicEffect(player1pos,2)
+
+		if player1.itemid > 0 and player2.itemid > 0 and player3.itemid > 0 and player4.itemid > 0 then
+			queststatus1 = getPlayerStorageValue(player1.uid,7011)
+			queststatus2 = getPlayerStorageValue(player2.uid,7011)
+			queststatus3 = getPlayerStorageValue(player3.uid,7011)
+			queststatus4 = getPlayerStorageValue(player4.uid,7011)
+
+			if queststatus1 == -1 and queststatus2 == -1 and queststatus3 == -1 and queststatus4 == -1 then
+				nplayer1pos = {x=208, y=305, z=9}
+				nplayer2pos = {x=208, y=304, z=9}
+				nplayer3pos = {x=208, y=303, z=9}
+				nplayer4pos = {x=208, y=302, z=9}
+
+				doSendMagicEffect(player1pos,3)
+				doSendMagicEffect(player2pos,3)
+				doSendMagicEffect(player3pos,3)
+				doSendMagicEffect(player4pos,3)
 
 				doTeleportThing(player1.uid,nplayer1pos)
+				doTeleportThing(player2.uid,nplayer2pos)
+				doTeleportThing(player3.uid,nplayer3pos)
+				doTeleportThing(player4.uid,nplayer4pos)
 
-				doSendMagicEffect(nplayer1pos,10)
+				doSendMagicEffect(nplayer1pos,11)
+				doSendMagicEffect(nplayer2pos,11)
+				doSendMagicEffect(nplayer3pos,11)
+				doSendMagicEffect(nplayer4pos,11)
 
 				doTransformItem(item.uid,item.itemid+1)
 			else
-				doPlayerSendCancel(cid,"You has already done this quest.")
+				doPlayerSendCancel(cid,"Somebody in your team has already done this quest.")
 			end
 		else
-			doPlayerSendCancel(cid,"You need one player for this quest.")
+			doPlayerSendCancel(cid,"You need four players for this quest.")
 		end
 
-	elseif item.uid == uniqueidoflever and item.itemid == 1946 then
+	elseif item.uid ==7012 and item.itemid == 1946 then
 		if getPlayerAccess(cid) > 0 then
 			doTransformItem(item.uid,item.itemid-1)
 		else
