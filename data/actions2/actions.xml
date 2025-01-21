@@ -29,7 +29,7 @@
 <action itemid="5875" script="crashni.lua" />
 <action itemid="5914" script="majin.lua" />
 <action itemid="2262" script="strenght skill.lua" />
-<action itemid="2263" script="blasting skill.lua" />
+
 <action itemid="2264" script="defense skill.lua" />
 <action itemid="2265" script="sword skill.lua" />
 <action uniqueid="7100" script="paccdoor.lua" />
