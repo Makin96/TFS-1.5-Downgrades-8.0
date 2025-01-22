@@ -1,32 +1,13 @@
 function onUse(cid, item, fromPosition, itemEx, toPosition)
-    -- Usuń przedmiot
-    if doRemoveItem(item.uid, 1) then
-        -- Wyświetl efekt wizualny
-        doSendMagicEffect(getThingPos(cid), 14)
 
-        -- Dodaj wartość do magazynu (storage) zamiast bezpośredniego skilla
-        local skillStorage = 5001 -- Unikalny ID storage dla umiejętności dystansowej
-        local currentSkill = getPlayerStorageValue(cid, skillStorage)
+    if getPlayerStorageValue(cid, 11111) == 1 then
+        local skill, amount = SKILL_SWORD, 3
 
-        -- Upewnij się, że currentSkill ma poprawną wartość
-        if currentSkill == -1 then
-            currentSkill = 0 -- Ustaw wartość początkową, jeśli storage nie istnieje
+        for i = 1, amount do
+                  doPlayerAddSkillTry(cid, skill, (getPlayerRequiredSkillTries(cid, skill, getPlayerSkillLevel(cid, skill) + 1) - getPlayerSkillTries(cid, skill)), true)
         end
-
-        local newSkill = currentSkill + 10000
-        setPlayerStorageValue(cid, skillStorage, newSkill)
-
-        -- Powiadom gracza o nowym poziomie
-        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Twoja umiejętność dystansowa została zwiększona! Nowa wartość: " .. tostring(newSkill))
-
-        -- Wyświetl wiadomość nad graczem
-        doCreatureSay(cid, "Blasting Up!", TALKTYPE_ORANGE_1)
     else
-        -- Nie udało się usunąć przedmiotu (np. nie znaleziono go)
-        doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Nie udało się użyć przedmiotu.")
+        doPlayerSendCancel(cid,"You already used this item")
     end
-
-    return true
+    return TRUE
 end
-print("Obecna wartość storage: " .. tostring(currentSkill))
-print("Nowa wartość storage: " .. tostring(newSkill))

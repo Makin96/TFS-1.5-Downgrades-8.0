@@ -322,30 +322,44 @@ end
 
 
 
-function ma2(cid)       
-        doCreatureSay(cid, 'Me...!', TALKTYPE_ORANGE_1)                 
-            addEvent(ha,0,cid)
+function ka(cid)
+    if not isCreature(cid) then
+        return
+    end
+    doCreatureSay(cid, 'Ka...!', TALKTYPE_ORANGE_1)
+    addEvent(function() ma(cid) end, 300)
+end
 
-      end
+function ma(cid)
+    if not isCreature(cid) then
+        return
+    end
+    doCreatureSay(cid, 'Me...!', TALKTYPE_ORANGE_1)
+    addEvent(function() ha2(cid) end, 200)
+end
 
-function ha2(cid)       
-        doCreatureSay(cid, 'Ha...!', TALKTYPE_ORANGE_1)                 
-            addEvent(ma2,0,cid)
+function ha2(cid)
+    if not isCreature(cid) then
+        return
+    end
+    doCreatureSay(cid, 'Ha...!', TALKTYPE_ORANGE_1)
+    addEvent(function() ma2(cid) end, 100)
+end
 
-      end
-
-function ma(cid)       
-        doCreatureSay(cid, 'Me...!', TALKTYPE_ORANGE_1)                 
-            addEvent(ha2,0,cid)
-
-      end
-function ka(cid)       
-        doCreatureSay(cid, 'Ka...!', TALKTYPE_ORANGE_1)                 
-            addEvent(ma,0,cid)
-
-      end
+function ma2(cid)
+    if not isCreature(cid) then
+        return
+    end
+    doCreatureSay(cid, 'Me...!', TALKTYPE_ORANGE_1)
+    addEvent(function() ha(cid) end, 400)
+end
 
 
 function onCastSpell(cid, var)
-      addEvent(ka,0,cid)
+    if not isCreature(cid) then
+        return false
+    end
+
+   addEvent(function() ka(cid) end, 0) -- Wywołanie głównej sekwencji
+    return true
 end
