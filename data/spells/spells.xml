@@ -30,7 +30,7 @@
 <instant name="Renzoku Energy Dan" words="renzoku energy dan" needtarget="1" direction="1" lvl="5" maglv="10" mana="1000" soul="0" exhaustion="1" prem="0" enabled="1" script="renzoku energy dan.lua">
 </instant>
 
-<instant name="Kienzan" words="kienzan" needtarget="1" direction="1" lvl="10" maglv="20" mana="2000" soul="0" exhaustion="1" prem="0" enabled="1" script="kienzan.lua">
+<instant name="Kienzan" words="Kienzan" needtarget="1" direction="1" lvl="10" maglv="20" mana="2000" soul="0" exhaustion="1" prem="0" enabled="1" script="kienzan.lua">
     <vocation name="Uub form one"/>
     <vocation name="Uub Form Five"/>
     <vocation name="Uub Gt"/>
@@ -78,7 +78,7 @@
     <vocation name="Full Super Saiyan 3 Goku"/>
 </instant>
 
-<instant name="Kamehameha" words="kamehameha" direction="1" lvl="15" maglv="30" mana="3000" soul="0" exhaustion="1" prem="0" enabled="1" script="kamehameha.lua">
+<instant name="Kamehameha" words="Kamehameha" direction="1" lvl="15" maglv="30" mana="3000" soul="0" exhaustion="1" prem="0" enabled="1" script="kamehameha.lua">
     <vocation name="Tsuful"/>
     <vocation name="Super Saiyan 4 Gohan"/>
     <vocation name="Bebi Vegeta"/>
@@ -152,7 +152,7 @@
     <vocation name="Full Super Saiyan 3 Goku"/>
 </instant>
 
-<instant name="Super Kamehameha" words="super kamehameha" direction="1" lvl="200" maglv="100" mana="8000" soul="0" exhaustion="1" prem="0" enabled="1" script="super kamehameha.lua">
+<instant name="Super Kamehameha" words="Super Kamehameha" direction="1" lvl="200" maglv="100" mana="8000" soul="0" exhaustion="1" prem="0" enabled="1" script="super kamehameha.lua">
     <vocation name="Uub form five"/>
     <vocation name="Tsuful"/>
     <vocation name="Bebi Vegeta"/>
@@ -169,7 +169,7 @@
     <vocation name="Cell Ultra Form"/>
 </instant>
 
-<instant name="Ryuken" words="ryuken" direction="1" lvl="50" maglv="40" mana="5000" soul="0" exhaustion="1" prem="0" enabled="1" script="ryuken.lua">
+<instant name="Ryuken" words="Ryuken" needtarget="1" direction="1" lvl="50" maglv="40" mana="5000" soul="0" exhaustion="1" prem="0" enabled="1" script="ryuken.lua">
     <vocation name="Goku"/>
     <vocation name="Chibi Goku SSJ3"/>
     <vocation name="Goku Golden Oozaru"/>
@@ -185,7 +185,7 @@
     <vocation name="Full Super Saiyan 3 Goku"/>
 </instant>
 
-<instant name="Super Ryuken" words="super ryuken" direction="1" lvl="200" maglv="100" mana="8000" soul="0" exhaustion="1" prem="0" enabled="1" script="super ryuken.lua">
+<instant name="Super Ryuken" words="Super Ryuken"  needtarget="1" direction="1" lvl="200" maglv="100" mana="8000" soul="0" exhaustion="1" prem="0" enabled="1" script="super ryuken.lua">
     <vocation name="Goku"/>
     <vocation name="Chibi Goku SSJ3"/>
     <vocation name="Goku Golden Oozaru"/>
@@ -201,12 +201,12 @@
     <vocation name="Full Super Saiyan 3 Goku"/>
 </instant>
 
-<instant name="Chybie Kamehameha" words="chybie kamehameha" direction="1" lvl="200" maglv="110" mana="10000" soul="0" exhaustion="1" prem="0" enabled="1" script="chybie kamehameha.lua">
+<instant name="Chybie Kamehameha" words="Chybie Kamehameha" direction="1" lvl="200" maglv="110" mana="10000" soul="0" exhaustion="1" prem="0" enabled="1" script="chybie kamehameha.lua">
     <vocation name="Super Saiyan 4 Goku"/>
     <vocation name="Super Saiyan 4 Gohan"/>
 </instant>
 
-<instant name="Genki Dama" words="genki dama" direction="1" lvl="75" maglv="70" mana="10000" soul="100" exhaustion="1" prem="0" enabled="1" script="genki dama.lua">
+<instant name="Genki Dama" words="Genki Dama" direction="1" lvl="75" maglv="70" mana="10000" soul="100" exhaustion="1" prem="0" enabled="1" script="genki dama.lua">
     <vocation name="Goku"/>
     <vocation name="Chibi Goku SSJ3"/>
     <vocation name="Goku Golden Oozaru"/>
@@ -222,7 +222,7 @@
     <vocation name="Full Super Saiyan 3 Goku"/>
 </instant>
 
-<instant name="Galik Ho" words="galik ho" direction="1" lvl="15" maglv="30" mana="3000" soul="0" exhaustion="1" prem="0" enabled="1" script="galik ho.lua">
+<instant name="Galik Ho" words="Galik Ho" direction="1" lvl="15" maglv="30" mana="3000" soul="0" exhaustion="1" prem="0" enabled="1" script="galik ho.lua">
     <vocation name="Tsuful GT"/>
     <vocation name="Vegeta"/>
     <vocation name="Super Saiyan Vegeta"/>
@@ -250,7 +250,7 @@
     <vocation name="Full Super Saiyan 2 Vegetax"/>
 </instant>
 
-<instant name="GalikHo" words="galikho" direction="1" lvl="15" maglv="30" mana="3000" soul="0" exhaustion="1" prem="0" enabled="1" script="galikho.lua">
+<instant name="GalikHo" words="GalikHo" direction="1" lvl="15" maglv="30" mana="3000" soul="0" exhaustion="1" prem="0" enabled="1" script="galikho.lua">
     <vocation name="Vegeta GT"/>
     <vocation name="Vegeta SSJ GT"/>
     <vocation name="Vegeta SSJ2 GT"/>
