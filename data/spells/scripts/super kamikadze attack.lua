@@ -2,25 +2,19 @@ local combat1 = createCombatObject()
 setCombatParam(combat1, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 setCombatParam(combat1, COMBAT_PARAM_EFFECT, 30)
 setCombatParam(combat1, COMBAT_PARAM_DISTANCEEFFECT, 26)
-setCombatFormula(combat1, COMBAT_FORMULA_LEVELMAGIC, -3.5, 0, -4.0, 0)
+setCombatFormula(combat1, COMBAT_FORMULA_LEVELMAGIC, -2.5, 0, -3.0, 0)
 
 local combat2 = createCombatObject()
 setCombatParam(combat2, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-setCombatParam(combat2, COMBAT_PARAM_EFFECT, 34)
+setCombatParam(combat2, COMBAT_PARAM_EFFECT, 30)
 setCombatParam(combat2, COMBAT_PARAM_DISTANCEEFFECT, 26)
-setCombatFormula(combat2, COMBAT_FORMULA_LEVELMAGIC, -3.5, 0, -4.0, 0)
+setCombatFormula(combat2, COMBAT_FORMULA_LEVELMAGIC, -2.5, 0, -3.0, 0)
 
 local combat3 = createCombatObject()
 setCombatParam(combat3, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 setCombatParam(combat3, COMBAT_PARAM_EFFECT, 30)
 setCombatParam(combat3, COMBAT_PARAM_DISTANCEEFFECT, 26)
-setCombatFormula(combat3, COMBAT_FORMULA_LEVELMAGIC, -3.5, 0, -4.0, 0)
-
-local combat4 = createCombatObject()
-setCombatParam(combat4, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-setCombatParam(combat4, COMBAT_PARAM_EFFECT, 34)
-setCombatParam(combat4, COMBAT_PARAM_DISTANCEEFFECT, 26)
-setCombatFormula(combat4, COMBAT_FORMULA_LEVELMAGIC, -3.5, 0, -4.0, 0)
+setCombatFormula(combat3, COMBAT_FORMULA_LEVELMAGIC, -2.5, 0, -3.0, 0)
 
 
 
@@ -39,19 +33,14 @@ local function onCastSpell3(parameters)
     doCombat(parameters.cid, parameters.combat3, parameters.var)
 end
 
-local function onCastSpell4(parameters)
-    doCombat(parameters.cid, parameters.combat4, parameters.var)
-end
-
 
 
 
 function onCastSpell(cid, var)
-local parameters = { cid = cid, var = var, combat1 = combat1, combat2 = combat2, combat3 = combat3, combat4 = combat4, }
+local parameters = { cid = cid, var = var, combat1 = combat1, combat2 = combat2, combat3 = combat3, }
 addEvent(onCastSpell1, 0, parameters)    
 addEvent(onCastSpell2, 300, parameters)       
-addEvent(onCastSpell3, 600, parameters)    
-addEvent(onCastSpell4, 900, parameters)    
+addEvent(onCastSpell3, 600, parameters)       
      
    
 

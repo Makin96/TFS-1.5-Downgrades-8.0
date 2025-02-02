@@ -490,7 +490,7 @@
     <vocation name="Gotenks SSJ3t"/>
 </instant>
 
-<instant name="Super Kamikadze Attack" words="super kamikadze attack" needtarget="1" direction="1" lvl="70" maglv="75" mana="4000" soul="0" exhaustion="1" prem="0" enabled="1" script="super ghost kamikadze attack.lua">
+<instant name="Super Kamikadze Attack" words="super kamikadze attack" needtarget="1" direction="1" lvl="70" maglv="75" mana="4000" soul="0" exhaustion="1" prem="0" enabled="1" script="super kamikadze attack.lua">
     <vocation name="tGotenks SSJ GT"/>
     <vocation name="tGotenks SSJ3 GT"/>
     <vocation name="tGotenks GT"/>
