@@ -535,7 +535,7 @@
     <vocation name="Gotenks SSJ3t"/>
 </instant>
 
-<instant name="gekitotsu ultra buu buu volley ball" words="gekitotsu ultra buu buu volley ball" direction="1" lvl="200" maglv="100" mana="5000" soul="0" exhaustion="1" prem="0" enabled="1" script="gekitotsu ultra buu buu volley ball.lua">
+<instant name="gekitotsu ultra buu buu volley ball" words="gekitotsu ultra buu buu volley ball" needtarget="1" direction="1" lvl="200" maglv="100" mana="5000" soul="0" exhaustion="1" prem="0" enabled="1" script="gekitotsu ultra buu buu volley ball.lua">
     <vocation name="tGotenks SSJ GT"/>
     <vocation name="tGotenks SSJ3 GT"/>
     <vocation name="Gotenks"/>
