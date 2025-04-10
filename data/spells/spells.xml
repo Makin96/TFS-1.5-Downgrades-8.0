@@ -917,7 +917,7 @@
     <vocation name="Mecha Freeza"/>
 </instant>
 
-<instant name="Dairetsuzan" words="daichiretsuzan" needtarget="1" direction="1" lvl="40" maglv="50" mana="5000" soul="0" exhaustion="1" prem="0" enabled="1" script="daichiretsuzan.lua">
+<instant name="Daichiretsuzan" words="daichiretsuzan" needtarget="1" direction="1" lvl="40" maglv="50" mana="5000" soul="0" exhaustion="1" prem="0" enabled="1" script="daichiretsuzan.lua">
     <vocation name="Tsuful GT"/>
     <vocation name="Tsuful"/>
     <vocation name="Bebi Vegeta"/>
