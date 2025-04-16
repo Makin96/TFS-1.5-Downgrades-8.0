@@ -4676,3 +4676,28 @@ void Player::updateRegeneration()
 		condition->setParam(CONDITION_PARAM_MANATICKS, vocation->getManaGainTicks() * 1000);
 	}
 }
+
+void Player::Transform(uint32_t voc, uint32_t outfitNum, uint32_t lev, uint32_t effect)
+{
+	if (getLevel() >= lev) {
+		if (getMana() > 200) {
+			Outfit_t outfit;
+			outfit.lookType = outfitNum;
+			defaultOutfit = outfit;
+
+			g_game.addMagicEffect(getPosition(), effect);
+			g_game.internalCreatureChangeOutfit(this, outfit);
+
+			setVocation(voc);
+			changeMana(-100);
+		}
+		else {
+			sendTextMessage(MESSAGE_INFO_DESCR, "You do not have enough ki.");
+		}
+	}
+	else {
+		std::ostringstream ss;
+		ss << "You need level " << lev << " to transform.";
+		sendTextMessage(MESSAGE_INFO_DESCR, ss.str());
+	}
+}
