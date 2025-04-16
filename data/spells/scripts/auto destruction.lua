@@ -1,7 +1,7 @@
 --------- Special UE By WilkU --------------
 local combat1 = createCombatObject()
 setCombatParam(combat1, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-setCombatParam(combat1, COMBAT_PARAM_EFFECT, 33)
+setCombatParam(combat1, COMBAT_PARAM_EFFECT, 34)
 setCombatFormula(combat1, COMBAT_FORMULA_LEVELMAGIC, -9.0, 0, -9.7, 0)
 
 arr1 = {

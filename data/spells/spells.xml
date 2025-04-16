@@ -1382,7 +1382,7 @@
 
 
 
-<instant name="Explosione" words="explosioneeeee" selftarget="1" aggressive="1" lvl="75" maglv="70" mana="10000" soul="0" exhaustion="1" prem="0" enabled="1" script="explosione.lua">
+<instant name="Explosione" words="explosione" selftarget="1" aggressive="1" lvl="75" maglv="70" mana="10000" soul="0" exhaustion="1" prem="0" enabled="1" script="explosione.lua">
 <vocation name="Tsuful"/>
 <vocation name="Bebi Vegeta"/>
 <vocation name="Super Bebi Vegeta"/>

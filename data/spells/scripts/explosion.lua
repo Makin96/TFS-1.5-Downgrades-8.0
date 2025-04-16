@@ -1,11 +1,11 @@
 local combat1 = createCombatObject()
 setCombatParam(combat1, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-setCombatParam(combat1, COMBAT_PARAM_EFFECT, 191)
+setCombatParam(combat1, COMBAT_PARAM_EFFECT, 192)
 setCombatFormula(combat1, COMBAT_FORMULA_LEVELMAGIC, -7.0, 0, -7.1, 0)
 
 local combat2 = createCombatObject()
 setCombatParam(combat2, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-setCombatParam(combat2, COMBAT_PARAM_EFFECT, 229)
+setCombatParam(combat2, COMBAT_PARAM_EFFECT, 230)
 setCombatFormula(combat2, COMBAT_FORMULA_LEVELMAGIC, -7.0, 0, -7.1, 0)
 
 
