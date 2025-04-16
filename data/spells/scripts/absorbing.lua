@@ -1,5 +1,5 @@
 local combat = createCombatObject()
-setCombatParam(combat, COMBAT_PARAM_EFFECT, 14) 
+setCombatParam(combat, COMBAT_PARAM_EFFECT, 15) 
 setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, 0)
 
 local condition = createConditionObject(CONDITION_MANASHIELD)
