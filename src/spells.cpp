@@ -1110,33 +1110,6 @@ bool InstantSpell::canCast(const Player* player) const
 	return false;
 }
 
-bool InstantSpell::Transform(const InstantSpell* spell, Creature* creature, const std::string& param)
-{
-	Player* player = creature->getPlayer();
-	if (player) {
-		//voc, outfitNum, lev, effect
-		if (player->getVocationId() == 1)
-			player->Transform(16, 37, 50, 58);
-		else if (player->getVocationId() == 16)
-			player->Transform(17, 18, 75, 57);
-		else if (player->getVocationId() == 17)
-			player->Transform(18, 71, 100, 58);
-		else if (player->getVocationId() == 18)
-			player->Transform(19, 70, 150, 59);
-		else if (player->getVocationId() == 19)
-			player->Transform(20, 354, 180, 8);
-		else if (player->getVocationId() == 20)
-			player->Transform(363, 259, 200, 150);
-		else {
-			player->sendTextMessage(MESSAGE_STATUS_SMALL, "You cannot be stronger.");
-			return false;
-		}
-		return true;
-	}
-	return false;
-}
-
-
 std::string RuneSpell::getScriptEventName() const
 {
 	return "onCastSpell";
