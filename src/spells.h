@@ -77,9 +77,6 @@ class Spells final : public BaseEvents
 		LuaScriptInterface scriptInterface { "Spell Interface" };
 };
 
-typedef bool (InstantSpellFunction)(const InstantSpell* spell, Creature* creature, const std::string& param);
-
-
 class BaseSpell
 {
 	public:
@@ -384,12 +381,6 @@ class InstantSpell final : public TalkAction, public Spell
 		}
 		bool canCast(const Player* player) const;
 		bool canThrowSpell(const Creature* creature, const Creature* target) const;
-
-protected:
-	std::string InstantSpell::getScriptEventName() {
-		return "onCastSpell";
-	}
-	static InstantSpellFunction Transform;
 
 	private:
 		std::string getScriptEventName() const override;

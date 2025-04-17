@@ -184,11 +184,6 @@ class Player final : public Creature, public Cylinder
 		void addList() override;
 		void kickPlayer(bool displayEffect);
 
-		void Transform(uint32_t voc, uint32_t outfitNum, uint32_t lev, uint32_t effect);
-		void Revert(uint32_t voc, uint32_t outfitNum, uint32_t effect);
-		void checkTransform(uint32_t voc, uint32_t effect, int32_t mana, bool okresowy, bool effectEx);
-		void checkTransforms();
-
 		static uint64_t getExpForLevel(const uint64_t lv) {
 			return (((lv - 6ULL) * lv + 17ULL) * lv - 12ULL) / 6ULL * 100ULL;
 		}

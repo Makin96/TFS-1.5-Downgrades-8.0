@@ -31,8 +31,6 @@
 #include "movement.h"
 #include "scheduler.h"
 #include "weapons.h"
-#include "spells.h"
-
 
 #include <fmt/format.h>
 
@@ -4678,91 +4676,3 @@ void Player::updateRegeneration()
 		condition->setParam(CONDITION_PARAM_MANATICKS, vocation->getManaGainTicks() * 1000);
 	}
 }
-
-void Player::Transform(uint32_t voc, uint32_t outfitNum, uint32_t lev, uint32_t effect)
-{
-	if (getLevel() >= lev) {
-		if (getMana() > 200) {
-			Outfit_t outfit;
-			outfit.lookType = outfitNum;
-			defaultOutfit = outfit;
-
-			g_game.addMagicEffect(getPosition(), effect);
-			g_game.internalCreatureChangeOutfit(this, outfit);
-
-			setVocation(voc);
-			changeMana(-100);
-		}
-		else {
-			sendTextMessage(MESSAGE_INFO_DESCR, "You do not have enough ki.");
-		}
-	}
-	else {
-		std::ostringstream ss;
-		ss << "You need level " << lev << " to transform.";
-		sendTextMessage(MESSAGE_INFO_DESCR, ss.str());
-	}
-}
-
-void Player::Revert(uint32_t vocationId, uint32_t outfitId, uint32_t effect)
-{
-	Outfit_t outfit;
-	outfit.lookType = outfitId;
-
-	defaultOutfit = outfit;
-	g_game.addMagicEffect(getPosition(), effect);
-	g_game.internalCreatureChangeOutfit(this, outfit);
-
-	setVocation(vocationId);
-	changeMana(-100);
-}
-
-
-void Player::checkTransform(uint32_t voc, uint32_t effect, int32_t manaCost, bool periodic, bool showEffect)
-{
-	if (getMana() >= 100) {
-		changeMana(-manaCost);
-
-		if (showEffect) {
-			g_game.addMagicEffect(getPosition(), effect);
-		}
-
-		if (getMana() <= 100) {
-			if (!periodic && showEffect) {
-				g_game.addMagicEffect(getPosition(), effect);
-			}
-			else if (periodic) {
-				Revert(1, 128, CONST_ME_POFF); // lub inne wartości dopasowane do Twojej gry
-
-
-			}
-		}
-	}
-}
-
-void Player::checkTransforms()
-{
-	switch (getVocationId()) {
-	case 16:
-		checkTransform(16, CONST_ME_POFF, 10, true, false);
-		break;
-	case 17:
-		checkTransform(17, CONST_ME_DRAWBLOOD, 20, true, false);
-		break;
-	case 18:
-		checkTransform(18, CONST_ME_MORTAREA, 30, true, true);
-		break;
-	case 19:
-		checkTransform(19, CONST_ME_MORTAREA, 40, true, true);
-		break;
-	case 20:
-		checkTransform(20, CONST_ME_NONE, 0, false, false);
-		break;
-	case 363:
-		checkTransform(363, CONST_ME_MORTAREA, 50, true, true);
-		break;
-	default:
-		break;
-	}
-}
-
