@@ -1380,6 +1380,8 @@
 </instant>
 
 
+<instant name="Transform" words="transform" aggressive="0" params="0" lvl="0" maglv="0" mana="0" soul="0" exhaustion="10" prem="0" enabled="1" script="Transform.lua">
+</instant>
 
 
 <instant name="Explosione" words="explosione" selftarget="1" aggressive="1" lvl="75" maglv="70" mana="10000" soul="0" exhaustion="1" prem="0" enabled="1" script="explosione.lua">
@@ -1420,10 +1422,9 @@
 <vocation name="Buu Gohan"/>
 <vocation name="Kid Buu"/>
 </instant>
-
 <instant name="Absorb" words="absorb" aggressive="0" params="0" lvl="0" maglv="0" mana="0" soul="0" exhaustion="10" prem="0" enabled="1" function="Absorb"></instant>
 <instant name="Unbsorb" words="unabsorb" aggressive="0" params="0" lvl="0" maglv="0" mana="0" soul="0" exhaustion="10" prem="0" enabled="1" function="Unabsorb"></instant>
-<instant name="Transform" words="transform" aggressive="0" params="0" lvl="0" maglv="0" mana="0" soul="0" exhaustion="10" prem="0" enabled="1" function="Transform"></instant>
+
 <instant name="revert" words="revert" aggressive="0" params="0" lvl="0" maglv="0" mana="0" soul="0" exhaustion="1" prem="0" enabled="1" function="Revert"></instant>
 <instant name="power ball" words="power ball" aggressive="0" params="0" lvl="0" maglv="0" mana="0" soul="0" exhaustion="1" prem="0" enabled="1" function="Power ball"></instant>
 <instant name="kaioken" words="kaioken" aggressive="0" params="0" lvl="0" maglv="0" mana="0" soul="0" exhaustion="1" prem="0" enabled="1" function="Kaioken"></instant>
