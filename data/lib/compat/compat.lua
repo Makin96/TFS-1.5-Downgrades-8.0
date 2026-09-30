@@ -636,6 +636,13 @@ function doPlayerSetGuildLevel(cid, level) local p = Player(cid) return p and p:
 function doPlayerSetGuildNick(cid, nick) local p = Player(cid) return p and p:setGuildNick(nick) or false end
 function doPlayerSetOfflineTrainingSkill(cid, skillId) local p = Player(cid) return p and p:setOfflineTrainingSkill(skillId) or false end
 function doShowTextDialog(cid, itemId, text) local p = Player(cid) return p and p:showTextDialog(itemId, text) or false end
+function doPlayerAddItem(cid, itemId, count, canDropOnMap, subType, slot)
+	local p = Player(cid)
+	if not p then return false end
+	local item = p:addItem(itemId, count or 1, canDropOnMap ~= false, subType or 1, slot or CONST_SLOT_WHEREEVER)
+	if not item then return false end
+	return item.uid
+end
 function doPlayerAddItemEx(cid, uid, ...) local p = Player(cid) return p and p:addItemEx(Item(uid), ...) or false end
 function doPlayerRemoveItem(cid, itemid, count, ...) local p = Player(cid) return p and p:removeItem(itemid, count, ...) or false end
 function doPlayerAddPremiumDays(cid, days) local p = Player(cid) return p and p:addPremiumDays(days) or false end
