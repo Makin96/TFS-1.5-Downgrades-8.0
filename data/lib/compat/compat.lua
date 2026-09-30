@@ -72,7 +72,11 @@ do
 		elseif key == "actionid" then
 			return methods.getActionId(self)
 		elseif key == "uid" then
-			return methods.getUniqueId(self)
+			local uid = methods.getUniqueId(self)
+			-- Legacy actions expect a usable uid even for ordinary map/inventory items.
+			-- TFS 1.5 only exposes a numeric uid for unique items, so keep the userdata
+			-- itself as the legacy handle when there is no numeric unique id.
+			return uid ~= 0 and uid or self
 		elseif key == "type" then
 			return methods.getSubType(self)
 		end
@@ -273,7 +277,8 @@ function pushThing(thing)
 	local t = {uid = 0, itemid = 0, type = 0, actionid = 0}
 	if thing then
 		if thing:isItem() then
-			t.uid = thing:getUniqueId()
+			local uid = thing:getUniqueId()
+			t.uid = uid ~= 0 and uid or thing
 			t.itemid = thing:getId()
 			if ItemType(t.itemid):hasSubType() then
 				t.type = thing:getSubType()
@@ -838,10 +843,17 @@ function getTownId(townName) local t = Town(townName) return t and t:getId() or 
 function getTownName(townId) local t = Town(townId) return t and t:getName() or false end
 function getTownTemplePosition(townId) local t = Town(townId) return t and t:getTemplePosition() or false end
 
-function doSetItemActionId(uid, actionId) local i = Item(uid) return i and i:setActionId(actionId) or false end
-function doTransformItem(uid, newItemId, ...) local i = Item(uid) return i and i:transform(newItemId, ...) or false end
-function doChangeTypeItem(uid, newType) local i = Item(uid) return i and i:transform(i:getId(), newType) or false end
-function doRemoveItem(uid, ...) local i = Item(uid) return i and i:remove(...) or false end
+local function getLegacyItem(uid)
+	if type(uid) == "userdata" then
+		return uid:isItem() and uid or nil
+	end
+	return Item(uid)
+end
+
+function doSetItemActionId(uid, actionId) local i = getLegacyItem(uid) return i and i:setActionId(actionId) or false end
+function doTransformItem(uid, newItemId, ...) local i = getLegacyItem(uid) return i and i:transform(newItemId, ...) or false end
+function doChangeTypeItem(uid, newType) local i = getLegacyItem(uid) return i and i:transform(i:getId(), newType) or false end
+function doRemoveItem(uid, ...) local i = getLegacyItem(uid) return i and i:remove(...) or false end
 
 function getContainerSize(uid) local c = Container(uid) return c and c:getSize() or false end
 function getContainerCap(uid) local c = Container(uid) return c and c:getCapacity() or false end
