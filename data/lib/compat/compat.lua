@@ -72,11 +72,7 @@ do
 		elseif key == "actionid" then
 			return methods.getActionId(self)
 		elseif key == "uid" then
-			local uid = methods.getUniqueId(self)
-			-- Legacy actions expect a usable uid even for ordinary map/inventory items.
-			-- TFS 1.5 only exposes a numeric uid for unique items, so keep the userdata
-			-- itself as the legacy handle when there is no numeric unique id.
-			return uid ~= 0 and uid or self
+			return methods.getUniqueId(self)
 		elseif key == "type" then
 			return methods.getSubType(self)
 		end
@@ -277,8 +273,7 @@ function pushThing(thing)
 	local t = {uid = 0, itemid = 0, type = 0, actionid = 0}
 	if thing then
 		if thing:isItem() then
-			local uid = thing:getUniqueId()
-			t.uid = uid ~= 0 and uid or thing
+			t.uid = thing:getUniqueId()
 			t.itemid = thing:getId()
 			if ItemType(t.itemid):hasSubType() then
 				t.type = thing:getSubType()
@@ -636,13 +631,6 @@ function doPlayerSetGuildLevel(cid, level) local p = Player(cid) return p and p:
 function doPlayerSetGuildNick(cid, nick) local p = Player(cid) return p and p:setGuildNick(nick) or false end
 function doPlayerSetOfflineTrainingSkill(cid, skillId) local p = Player(cid) return p and p:setOfflineTrainingSkill(skillId) or false end
 function doShowTextDialog(cid, itemId, text) local p = Player(cid) return p and p:showTextDialog(itemId, text) or false end
-function doPlayerAddItem(cid, itemId, count, canDropOnMap, subType, slot)
-	local p = Player(cid)
-	if not p then return false end
-	local item = p:addItem(itemId, count or 1, canDropOnMap ~= false, subType or 1, slot or CONST_SLOT_WHEREEVER)
-	if not item then return false end
-	return item.uid
-end
 function doPlayerAddItemEx(cid, uid, ...) local p = Player(cid) return p and p:addItemEx(Item(uid), ...) or false end
 function doPlayerRemoveItem(cid, itemid, count, ...) local p = Player(cid) return p and p:removeItem(itemid, count, ...) or false end
 function doPlayerAddPremiumDays(cid, days) local p = Player(cid) return p and p:addPremiumDays(days) or false end
@@ -850,17 +838,10 @@ function getTownId(townName) local t = Town(townName) return t and t:getId() or 
 function getTownName(townId) local t = Town(townId) return t and t:getName() or false end
 function getTownTemplePosition(townId) local t = Town(townId) return t and t:getTemplePosition() or false end
 
-local function getLegacyItem(uid)
-	if type(uid) == "userdata" then
-		return uid:isItem() and uid or nil
-	end
-	return Item(uid)
-end
-
-function doSetItemActionId(uid, actionId) local i = getLegacyItem(uid) return i and i:setActionId(actionId) or false end
-function doTransformItem(uid, newItemId, ...) local i = getLegacyItem(uid) return i and i:transform(newItemId, ...) or false end
-function doChangeTypeItem(uid, newType) local i = getLegacyItem(uid) return i and i:transform(i:getId(), newType) or false end
-function doRemoveItem(uid, ...) local i = getLegacyItem(uid) return i and i:remove(...) or false end
+function doSetItemActionId(uid, actionId) local i = Item(uid) return i and i:setActionId(actionId) or false end
+function doTransformItem(uid, newItemId, ...) local i = Item(uid) return i and i:transform(newItemId, ...) or false end
+function doChangeTypeItem(uid, newType) local i = Item(uid) return i and i:transform(i:getId(), newType) or false end
+function doRemoveItem(uid, ...) local i = Item(uid) return i and i:remove(...) or false end
 
 function getContainerSize(uid) local c = Container(uid) return c and c:getSize() or false end
 function getContainerCap(uid) local c = Container(uid) return c and c:getCapacity() or false end
